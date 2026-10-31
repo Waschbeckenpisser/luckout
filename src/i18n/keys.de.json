@@ -1,0 +1,1969 @@
+{
+ "ui": {
+  "Fluch": "Fluch",
+  "Relikt": "Relikt",
+  "Fluch des Teufels": "Fluch des Teufels",
+  "Verbrauchbar": "Verbrauchbar",
+  "Champion": "Champion",
+  "Boss": "Boss",
+  "Gegner": "Gegner",
+  "Kampf {0}": "Kampf {0}",
+  "Ab 50% Leben:": "Ab 50% Leben:",
+  "{0} / {1} Leben": "{0} / {1} Leben",
+  "regeneriert sich, wenn du ein ❤️ verlierst": "regeneriert sich, wenn du ein ❤️ verlierst",
+  "Antippen: benutzen oder verkaufen": "Antippen: benutzen oder verkaufen",
+  "Antippen oder Taste {0} zum Benutzen": "Antippen oder Taste {0} zum Benutzen",
+  "Schließen": "Schließen",
+  "OK": "OK",
+  "Endlos": "Endlos",
+  "von {0}": "von {0}",
+  "Kredit {0}": "Kredit {0}",
+  "Flüche": "Flüche",
+  "Fluch: {0}": "Fluch: {0}",
+  "zahlt ×6": "zahlt ×6",
+  "Nächster Spin trifft sicher": "Nächster Spin trifft sicher",
+  "Tipp: Gewinne treffen den Gegner": "Tipp: Gewinne treffen den Gegner",
+  "Drehen": "Drehen",
+  "Gratis drehen": "Gratis drehen",
+  "Kein Geld – Kredit nehmen": "Kein Geld – Kredit nehmen",
+  "Aufgeben · −1 ❤️": "Aufgeben · −1 ❤️",
+  "Kredit": "Kredit",
+  "Auto stoppen": "Auto stoppen",
+  "Auto": "Auto",
+  "{0} Linien": "{0} Linien",
+  "{0} Linie": "{0} Linie",
+  "Jackpot": "Jackpot",
+  "Niete": "Niete",
+  "zurück": "zurück",
+  "{0} Schaden": "{0} Schaden",
+  "Prüfung": "Prüfung",
+  "+{0} Spin": "+{0} Spin",
+  "Name wählen": "Name wählen",
+  "Level {0} von {1}": "Level {0} von {1}",
+  "{0} von {1} Epochen geschafft": "{0} von {1} Epochen geschafft",
+  "Rekord: Kampf {0}": "Rekord: Kampf {0}",
+  "Bevor es losgeht": "Bevor es losgeht",
+  "Dein Name": "Dein Name",
+  "Wie heißt du im Ring?": "Wie heißt du im Ring?",
+  "Name": "Name",
+  "2–14 Zeichen. Leer lassen für „{0}“.": "2–14 Zeichen. Leer lassen für „{0}“.",
+  "Los geht’s": "Los geht’s",
+  "Speichern": "Speichern",
+  "Überspringen": "Überspringen",
+  "Endlosmodus": "Endlosmodus",
+  "Alle Zeiten.": "Alle Zeiten.",
+  "Gegner aus allen Epochen. Wie weit kommst du?": "Gegner aus allen Epochen. Wie weit kommst du?",
+  "Endlos: Wie weit kommst du?": "Endlos: Wie weit kommst du?",
+  "Ring frei, {0}.": "Ring frei, {0}.",
+  "Level {0}": "Level {0}",
+  "Deine Ausrüstung": "Deine Ausrüstung",
+  "Tipp: <b>Drehen</b> oder Leertaste. Jeder Gewinn trifft den Gegner.": "Tipp: <b>Drehen</b> oder Leertaste. Jeder Gewinn trifft den Gegner.",
+  "Willkommen zurück.": "Willkommen zurück.",
+  "Zweiter Versuch": "Zweiter Versuch",
+  "Kampf {0} von {1}": "Kampf {0} von {1}",
+  "{0} Lebenspunkte · {1} Spins · Einsatz {2}": "{0} Lebenspunkte · {1} Spins · Einsatz {2}",
+  "Zauberer:": "Zauberer:",
+  "Hotbar voll": "Hotbar voll",
+  "Ereignis": "Ereignis",
+  "Pech gehabt": "Pech gehabt",
+  "Der Teufel mischt sich ein": "Der Teufel mischt sich ein",
+  "Der Steuer-Opa": "Der Steuer-Opa",
+  "Gratis-Spin …": "Gratis-Spin …",
+  "Einsatz {0} …": "Einsatz {0} …",
+  "🔮 Kristallkugel: Die Niete wurde neu gedreht.": "🔮 Kristallkugel: Die Niete wurde neu gedreht.",
+  "✦ Sicherer Treffer nach {0} Nieten.": "✦ Sicherer Treffer nach {0} Nieten.",
+  "🎒 Fundstück!": "🎒 Fundstück!",
+  "🎒 Fundstück verkauft: +{0}": "🎒 Fundstück verkauft: +{0}",
+  "🎒 Fundstück: <b>{0}</b>": "🎒 Fundstück: <b>{0}</b>",
+  "⏳ Zeitschleife: Der Spin kostet nichts.": "⏳ Zeitschleife: Der Spin kostet nichts.",
+  "✨ Lebensfunke: +2 Spins!": "✨ Lebensfunke: +2 Spins!",
+  "📌 Glücksbrosche: +1 Spin!": "📌 Glücksbrosche: +1 Spin!",
+  "Keine Spins mehr": "Keine Spins mehr",
+  "Steuerprüfung": "Steuerprüfung",
+  "{0} wird wütend": "{0} wird wütend",
+  "Nur noch die Hälfte des Lebens. Halte durch.": "Nur noch die Hälfte des Lebens. Halte durch.",
+  "Weiter": "Weiter",
+  "Geflohen": "Geflohen",
+  "keine Beute": "keine Beute",
+  "Kopfgeld": "Kopfgeld",
+  "Übrige Spins": "Übrige Spins",
+  "Spins für den nächsten Kampf": "Spins für den nächsten Kampf",
+  "Rentenfonds": "Rentenfonds",
+  "Basislager": "Basislager",
+  "Zinsen": "Zinsen",
+  "Feldflasche": "Feldflasche",
+  "Kreditzinsen": "Kreditzinsen",
+  "Beute": "Beute",
+  "Konto": "Konto",
+  "Entkommen.": "Entkommen.",
+  "{0} besiegt.": "{0} besiegt.",
+  "Der Boss hat eine besondere Truhe hinterlassen – sie wartet im Basar.": "Der Boss hat eine besondere Truhe hinterlassen – sie wartet im Basar.",
+  "Der Gegner hat eine Truhe hinterlassen – sie wartet im Basar.": "Der Gegner hat eine Truhe hinterlassen – sie wartet im Basar.",
+  "Zum Basar": "Zum Basar",
+  "Aufgeben?": "Aufgeben?",
+  "{0} trifft dich – du verlierst <b>ein ❤️</b> und versuchst es mit frischen Spins erneut.": "{0} trifft dich – du verlierst <b>ein ❤️</b> und versuchst es mit frischen Spins erneut.",
+  "Ein Boss regeneriert dabei {0}% Leben.": "Ein Boss regeneriert dabei {0}% Leben.",
+  "Seine Wunden bleiben.": "Seine Wunden bleiben.",
+  "Achtung:": "Achtung:",
+  "Das ist dein letztes Leben.": "Das ist dein letztes Leben.",
+  "Abbrechen": "Abbrechen",
+  "Aufgeben": "Aufgeben",
+  "Gerettet.": "Gerettet.",
+  "Getroffen.": "Getroffen.",
+  "📕 Zweite Luft: Du behältst dein Leben.": "📕 Zweite Luft: Du behältst dein Leben.",
+  "Du verlierst ein Leben – <b>{0}</b> bleibt.": "Du verlierst ein Leben – <b>{0}</b> bleibt.",
+  "Du verlierst ein Leben – <b>{0}</b> bleiben.": "Du verlierst ein Leben – <b>{0}</b> bleiben.",
+  "{0} regeneriert <b>{1}</b> Leben.": "{0} regeneriert <b>{1}</b> Leben.",
+  "Ein Händler leiht dir <b>{0}</b> für die Einsätze.": "Ein Händler leiht dir <b>{0}</b> für die Einsätze.",
+  "Neuer Versuch": "Neuer Versuch",
+  "Bank des Basars": "Bank des Basars",
+  "Kredit.": "Kredit.",
+  "Leihe dir Geld für Einsätze oder Einkäufe. Am Ende jedes Kampfes werden <b>{0}% Zinsen</b> fällig – können sie nicht gezahlt werden, wachsen die Schulden.": "Leihe dir Geld für Einsätze oder Einkäufe. Am Ende jedes Kampfes werden <b>{0}% Zinsen</b> fällig – können sie nicht gezahlt werden, wachsen die Schulden.",
+  "Schulden": "Schulden",
+  "Kreditrahmen": "Kreditrahmen",
+  "Noch verfügbar": "Noch verfügbar",
+  "+{0} leihen": "+{0} leihen",
+  "Alles · +{0}": "Alles · +{0}",
+  "{0} tilgen": "{0} tilgen",
+  "Tilgen": "Tilgen",
+  "Alles tilgen": "Alles tilgen",
+  "Schulden zählen am Ende gegen deinen Kontostand.": "Schulden zählen am Ende gegen deinen Kontostand.",
+  "Kontostand": "Kontostand",
+  "Größter Treffer": "Größter Treffer",
+  "Besiegte Gegner": "Besiegte Gegner",
+  "Relikte": "Relikte",
+  "{0} ist k.o.": "{0} ist k.o.",
+  "Alle zehn Epochen geschafft.": "Alle zehn Epochen geschafft.",
+  "Level {0} ist frei: {1}.": "Level {0} ist frei: {1}.",
+  "Aus $100 wurden <b>{0}</b>.": "Aus $100 wurden <b>{0}</b>.",
+  "{0} war zu stark.": "{0} war zu stark.",
+  "{0} hat es bis Kampf {1} geschafft.": "{0} hat es bis Kampf {1} geschafft.",
+  "Hauptmenü": "Hauptmenü",
+  "Endlos weiter": "Endlos weiter",
+  "Nächstes Level": "Nächstes Level",
+  "Nochmal": "Nochmal",
+  "Neues Relikt: <b>{0}</b>": "Neues Relikt: <b>{0}</b>",
+  "{0} abgegeben": "{0} abgegeben",
+  "In die Hotbar: <b>{0}</b>": "In die Hotbar: <b>{0}</b>",
+  "Kein Platz – für <b>{0}</b> verkauft.": "Kein Platz – für <b>{0}</b> verkauft.",
+  "😈 Verflucht: <b>{0}</b>": "😈 Verflucht: <b>{0}</b>",
+  "Hotbar zu klein – überzählige Gegenstände für {0} verkauft.": "Hotbar zu klein – überzählige Gegenstände für {0} verkauft.",
+  "Hotbar voll · {0} Plätze": "Hotbar voll · {0} Plätze",
+  "Platz schaffen?": "Platz schaffen?",
+  "Neu": "Neu",
+  "Tippe auf einen Gegenstand, den du dafür abgibst. Er wird zu Geld.": "Tippe auf einen Gegenstand, den du dafür abgibst. Er wird zu Geld.",
+  "Neues verkaufen · +{0}": "Neues verkaufen · +{0}",
+  "In die Hotbar: <b>{0}</b> · {1} für +{2} abgegeben": "In die Hotbar: <b>{0}</b> · {1} für +{2} abgegeben",
+  "{0} für <b>{1}</b> verkauft.": "{0} für <b>{1}</b> verkauft.",
+  "Alle {0} Plätze belegt": "Alle {0} Plätze belegt",
+  "Tippe auf ein Relikt, das du dafür abgibst. Es wird zu Geld.": "Tippe auf ein Relikt, das du dafür abgibst. Es wird zu Geld.",
+  "<b>{0}</b> aktiviert": "<b>{0}</b> aktiviert",
+  "Jetzt benutzen": "Jetzt benutzen",
+  "Verkaufen · +{0}": "Verkaufen · +{0}",
+  "{0} für {1} verkauft": "{0} für {1} verkauft",
+  "<b>{0}</b> benutzt": "<b>{0}</b> benutzt",
+  "Tauschen · {0}": "Tauschen · {0}",
+  "gegen ein zufälliges {0}es Relikt": "gegen ein zufälliges {0}es Relikt",
+  "{0} für <b>{1}</b> verkauft": "{0} für <b>{1}</b> verkauft",
+  "Hotbar zu klein – für {0} verkauft.": "Hotbar zu klein – für {0} verkauft.",
+  "Fluch lösen · {0}": "Fluch lösen · {0}",
+  "Im Basar kannst du Flüche gegen Geld lösen.": "Im Basar kannst du Flüche gegen Geld lösen.",
+  "Fluch gelöst: <b>{0}</b>": "Fluch gelöst: <b>{0}</b>",
+  "Gekauft": "Gekauft",
+  "Basar · nach Kampf {0}": "Basar · nach Kampf {0}",
+  "Rüste dich aus.": "Rüste dich aus.",
+  "Als Nächstes: {0}": "Als Nächstes: {0}",
+  "Als Nächstes: ein Boss": "Als Nächstes: ein Boss",
+  "Als Nächstes: Kampf {0}": "Als Nächstes: Kampf {0}",
+  "Einsatz {0}": "Einsatz {0}",
+  "Beute-Truhe": "Beute-Truhe",
+  "Startet {0} und wertet sich mit 40 % je Stufe auf – bis Mythisch.": "Startet {0} und wertet sich mit 40 % je Stufe auf – bis Mythisch.",
+  "Öffnen": "Öffnen",
+  "Händler-Kiste": "Händler-Kiste",
+  "Einmal pro Besuch. Startet grau, jede Stufe mit 50 % Chance besser.": "Einmal pro Besuch. Startet grau, jede Stufe mit 50 % Chance besser.",
+  "Kaufen · {0}": "Kaufen · {0}",
+  "Angebote": "Angebote",
+  "Neu würfeln · {0}": "Neu würfeln · {0}",
+  "gratis": "gratis",
+  "Keine Angebote mehr.": "Keine Angebote mehr.",
+  "Ausrüstung": "Ausrüstung",
+  "Proviant": "Proviant",
+  "+1 Spin im nächsten Kampf · {0}/{1} · jeder doppelt so teuer": "+1 Spin im nächsten Kampf · {0}/{1} · jeder doppelt so teuer",
+  "Voll": "Voll",
+  "Schulden {0}": "Schulden {0}",
+  "Bis zu {0} leihen": "Bis zu {0} leihen",
+  "Lösen · {0}": "Lösen · {0}",
+  "Deine Relikte": "Deine Relikte",
+  "antippen zum Verkaufen oder Tauschen": "antippen zum Verkaufen oder Tauschen",
+  "Noch keine Relikte.": "Noch keine Relikte.",
+  "Hotbar": "Hotbar",
+  "antippen zum Benutzen oder Verkaufen": "antippen zum Benutzen oder Verkaufen",
+  "Leer.": "Leer.",
+  "Volle Hotbar? Du entscheidest, was du abgibst.": "Volle Hotbar? Du entscheidest, was du abgibst.",
+  "Weiter zu Kampf {0}": "Weiter zu Kampf {0}",
+  "Doch nicht kaufen": "Doch nicht kaufen",
+  "🎒 Proviant: +1 Spin im nächsten Kampf": "🎒 Proviant: +1 Spin im nächsten Kampf",
+  "Knappe Kasse.": "Knappe Kasse.",
+  "Dein Konto reicht für weniger als 3 Spins (je {0}). Du kannst verkaufen oder einen Kredit aufnehmen – oder es riskieren.": "Dein Konto reicht für weniger als 3 Spins (je {0}). Du kannst verkaufen oder einen Kredit aufnehmen – oder es riskieren.",
+  "Trotzdem weiter": "Trotzdem weiter",
+  "Zurück zum Basar": "Zurück zum Basar",
+  "Beute vergessen?": "Beute vergessen?",
+  "Du hast noch eine ungeöffnete Beute-Truhe. Sie bleibt hier, wenn du jetzt weitergehst.": "Du hast noch eine ungeöffnete Beute-Truhe. Sie bleibt hier, wenn du jetzt weitergehst.",
+  "Truhe öffnen": "Truhe öffnen",
+  "Nächster Gegner …": "Nächster Gegner …",
+  "Relikt · wirkt dauerhaft": "Relikt · wirkt dauerhaft",
+  "Fluch · bis du ihn löst": "Fluch · bis du ihn löst",
+  "Verbrauchbar · landet in der Hotbar": "Verbrauchbar · landet in der Hotbar",
+  "Die Kiste öffnet sich …": "Die Kiste öffnet sich …",
+  "Der Teufel mischt sich ein!": "Der Teufel mischt sich ein!",
+  "Teufelstruhe": "Teufelstruhe",
+  "Verflucht.": "Verflucht.",
+  "Na toll …": "Na toll …",
+  "😈 Verflucht: <b>{0}</b> – im Basar kannst du ihn lösen.": "😈 Verflucht: <b>{0}</b> – im Basar kannst du ihn lösen.",
+  "Aufgewertet: {0}": "Aufgewertet: {0}",
+  "Leer – du hast schon alles.": "Leer – du hast schon alles.",
+  "Dein Fund": "Dein Fund",
+  "Glück gehabt – du darfst wählen!": "Glück gehabt – du darfst wählen!",
+  "Sogar aus drei!": "Sogar aus drei!",
+  "Tippe auf eine Karte, um sie zu nehmen.": "Tippe auf eine Karte, um sie zu nehmen.",
+  "Einpacken": "Einpacken",
+  "In die Hotbar": "In die Hotbar",
+  "ersetzt jedes Symbol": "ersetzt jedes Symbol",
+  "Scatter": "Scatter",
+  "{0}+ irgendwo im Feld": "{0}+ irgendwo im Feld",
+  "harmlos": "harmlos",
+  "−1× Einsatz": "−1× Einsatz",
+  "stiehlt Geld – in Mustern viel mehr": "stiehlt Geld – in Mustern viel mehr",
+  "nimmt Steuern auf deinen Gewinn": "nimmt Steuern auf deinen Gewinn",
+  "Symbol": "Symbol",
+  "Wert": "Wert",
+  "Chance": "Chance",
+  "<b>{0} Gewinnlinien:</b> 3 gleiche in Reihe, Spalte oder Diagonale zahlen Einsatz × Wert.": "<b>{0} Gewinnlinien:</b> 3 gleiche in Reihe, Spalte oder Diagonale zahlen Einsatz × Wert.",
+  "<b>Schaden:</b> Jeder Gewinn trifft den Gegner in gleicher Höhe.": "<b>Schaden:</b> Jeder Gewinn trifft den Gegner in gleicher Höhe.",
+  "<b>Sicherer Treffer:</b> Nach {0} Nieten in Folge gewinnt der nächste Spin garantiert.": "<b>Sicherer Treffer:</b> Nach {0} Nieten in Folge gewinnt der nächste Spin garantiert.",
+  "<b>Muster:</b> {0} von {1} aktiv": "<b>Muster:</b> {0} von {1} aktiv",
+  "alle Muster {0}": "alle Muster {0}",
+  "<b>Grundmultiplikator:</b> alle Gewinne {0}": "<b>Grundmultiplikator:</b> alle Gewinne {0}",
+  "Schaden pro Spin (Schnitt)": "Schaden pro Spin (Schnitt)",
+  "Auszahlung pro $1 Einsatz": "Auszahlung pro $1 Einsatz",
+  "Gleiche Symbole in diesen Formen zahlen zusätzlich: Einsatz × Symbolwert × Faktor. Joker zählen mit.": "Gleiche Symbole in diesen Formen zahlen zusätzlich: Einsatz × Symbolwert × Faktor. Joker zählen mit.",
+  "aktiv": "aktiv",
+  "über Relikte": "über Relikte",
+  "Teufelsmuster": "Teufelsmuster",
+  "Selten: der Teufel stiehlt 6× bis 16× Einsatz": "Selten: der Teufel stiehlt 6× bis 16× Einsatz",
+  "Endlos – gerade aus der Epoche:": "Endlos – gerade aus der Epoche:",
+  "Kampf {0} · Spin {1}": "Kampf {0} · Spin {1}",
+  "Gratis": "Gratis",
+  "{0} Muster": "{0} Muster",
+  "Noch keine Spins in dieser Sitzung.": "Noch keine Spins in dieser Sitzung.",
+  "Infos": "Infos",
+  "Gewinne & Gegner": "Gewinne & Gegner",
+  "Gewinne": "Gewinne",
+  "Muster": "Muster",
+  "Verlauf": "Verlauf",
+  "{0} Einsatz": "{0} Einsatz",
+  "{0} Siege in {1} Läufen": "{0} Siege in {1} Läufen",
+  "Menü": "Menü",
+  "Pause.": "Pause.",
+  "Weiterspielen": "Weiterspielen",
+  "Kompendium · {0} Gegenstände": "Kompendium · {0} Gegenstände",
+  "So funktioniert's": "So funktioniert's",
+  "Tagebuch": "Tagebuch",
+  "Bestenliste": "Bestenliste",
+  "Ton": "Ton",
+  "Schnelle Animationen": "Schnelle Animationen",
+  "Sprache": "Sprache",
+  "Lauf neu starten": "Lauf neu starten",
+  "Lauf beenden?": "Lauf beenden?",
+  "Dein Fortschritt geht verloren. Rekorde bleiben erhalten.": "Dein Fortschritt geht verloren. Rekorde bleiben erhalten.",
+  "Beenden": "Beenden",
+  "Lauf neu starten?": "Lauf neu starten?",
+  "Dein aktueller Lauf endet sofort. Rekorde bleiben erhalten.": "Dein aktueller Lauf endet sofort. Rekorde bleiben erhalten.",
+  "Neu starten": "Neu starten",
+  "Die Geschichte von {0}.": "Die Geschichte von {0}.",
+  "Prolog": "Prolog",
+  "Epilog": "Epilog",
+  "Prolog nochmal ansehen": "Prolog nochmal ansehen",
+  "Die besten Läufe.": "Die besten Läufe.",
+  "Story": "Story",
+  "Noch keine Läufe. Zeit für den ersten.": "Noch keine Läufe. Zeit für den ersten.",
+  "Gespeichert nur auf diesem Gerät.": "Gespeichert nur auf diesem Gerät.",
+  "Kompendium": "Kompendium",
+  "{0} Gegenstände.": "{0} Gegenstände.",
+  "{0} Relikte, {1} Verbrauchsgegenstände und {2} Flüche des Teufels. Entdeckt: {3}.": "{0} Relikte, {1} Verbrauchsgegenstände und {2} Flüche des Teufels. Entdeckt: {3}.",
+  "Suchen, z. B. Joker oder Muster": "Suchen, z. B. Joker oder Muster",
+  "Gegenstände durchsuchen": "Gegenstände durchsuchen",
+  "Alle": "Alle",
+  "Alle Seltenheiten": "Alle Seltenheiten",
+  "entdeckt": "entdeckt",
+  "Nichts gefunden.": "Nichts gefunden.",
+  "Level und Epochen": "Level und Epochen",
+  "Die Story führt durch {0} Epochen, von der Urzeit bis in die Zukunft. Jedes Level hat {1} Kämpfe, am Ende wartet der Champion der Epoche. Wer ihn besiegt, schaltet das nächste Level frei. Im Endlosmodus kommen Gegner aus allen Zeiten, bis du fällst.": "Die Story führt durch {0} Epochen, von der Urzeit bis in die Zukunft. Jedes Level hat {1} Kämpfe, am Ende wartet der Champion der Epoche. Wer ihn besiegt, schaltet das nächste Level frei. Im Endlosmodus kommen Gegner aus allen Zeiten, bis du fällst.",
+  "Kämpfe und Gegner": "Kämpfe und Gegner",
+  "Jeder Gewinn trifft den Gegner in gleicher Höhe – bring sein Leben auf null. Viele Gegner haben eine Sonderregel.": "Jeder Gewinn trifft den Gegner in gleicher Höhe – bring sein Leben auf null. Viele Gegner haben eine Sonderregel.",
+  "Spins": "Spins",
+  "Du startest mit 3 Spins pro Kampf, jeder kostet den Einsatz. Übrige Spins nimmst du in den nächsten Kampf mit. Mehr Spins gibt es per Relikt oder als Proviant im Basar – jeder Proviant kostet doppelt so viel wie der vorige. Nach 3 Nieten in Folge trifft der nächste Spin sicher.": "Du startest mit 3 Spins pro Kampf, jeder kostet den Einsatz. Übrige Spins nimmst du in den nächsten Kampf mit. Mehr Spins gibt es per Relikt oder als Proviant im Basar – jeder Proviant kostet doppelt so viel wie der vorige. Nach 3 Nieten in Folge trifft der nächste Spin sicher.",
+  "Linien und Muster": "Linien und Muster",
+  "3 gleiche Symbole in Reihe, Spalte oder Diagonale gewinnen. Muster wie Block, Welle, Kreuz und Winkel zahlen zusätzlich – Relikte schalten größere frei. Der Joker ersetzt alles.": "3 gleiche Symbole in Reihe, Spalte oder Diagonale gewinnen. Muster wie Block, Welle, Kreuz und Winkel zahlen zusätzlich – Relikte schalten größere frei. Der Joker ersetzt alles.",
+  "Teufel und Steuer-Opa": "Teufel und Steuer-Opa",
+  "Der Teufel stiehlt deinen Einsatz – und bildet er ein Muster, klaut er ein Vielfaches. Der Steuer-Opa 👴 nimmt dir 30 % deines Gewinns. Manchmal verflucht dich der Teufel auch.": "Der Teufel stiehlt deinen Einsatz – und bildet er ein Muster, klaut er ein Vielfaches. Der Steuer-Opa 👴 nimmt dir 30 % deines Gewinns. Manchmal verflucht dich der Teufel auch.",
+  "Kisten": "Kisten",
+  "Jeder besiegte Gegner hinterlässt eine Truhe, im Basar gibt es eine Händler-Kiste pro Besuch. Kisten werten sich zufällig auf und geben dir sofort einen Gegenstand – mit etwas Glück darfst du wählen.": "Jeder besiegte Gegner hinterlässt eine Truhe, im Basar gibt es eine Händler-Kiste pro Besuch. Kisten werten sich zufällig auf und geben dir sofort einen Gegenstand – mit etwas Glück darfst du wählen.",
+  "Relikt-Plätze": "Relikt-Plätze",
+  "Du hast 8 Plätze für Relikte. Antippen zum Verkaufen, im Basar auch zum Tauschen. Ist alles voll, entscheidest du, was rausfliegt.": "Du hast 8 Plätze für Relikte. Antippen zum Verkaufen, im Basar auch zum Tauschen. Ist alles voll, entscheidest du, was rausfliegt.",
+  "Leihe dir Geld, wenn es knapp wird. Am Ende jedes Kampfes werden Zinsen fällig.": "Leihe dir Geld, wenn es knapp wird. Am Ende jedes Kampfes werden Zinsen fällig.",
+  "Leben und Bosse": "Leben und Bosse",
+  "Gehen dir die Spins aus, musst du aufgeben: Das kostet ein Leben, dann geht es mit neuen Spins weiter. In Kampf 4 und 8 warten Bosse, in Kampf 12 der Champion der Epoche. Ab der Hälfte seines Lebens wird er wütend.": "Gehen dir die Spins aus, musst du aufgeben: Das kostet ein Leben, dann geht es mit neuen Spins weiter. In Kampf 4 und 8 warten Bosse, in Kampf 12 der Champion der Epoche. Ab der Hälfte seines Lebens wird er wütend.",
+  "Anleitung": "Anleitung",
+  "So funktioniert's.": "So funktioniert's.",
+  "<kbd>Leertaste</kbd> Drehen <kbd>1–9</kbd> Hotbar <kbd>I</kbd> Infos <kbd>M</kbd> Menü": "<kbd>Leertaste</kbd> Drehen <kbd>1–9</kbd> Hotbar <kbd>I</kbd> Infos <kbd>M</kbd> Menü",
+  "Nur während eines Kampfes nutzbar.": "Nur während eines Kampfes nutzbar.",
+  "Erst nach dem ersten Spin nutzbar.": "Erst nach dem ersten Spin nutzbar.",
+  "Rubbellos: Treffer!": "Rubbellos: Treffer!",
+  "Rubbellos: leider nichts.": "Rubbellos: leider nichts.",
+  "Rot! +{0}": "Rot! +{0}",
+  "Schwarz! −{0}": "Schwarz! −{0}",
+  "Wirkt nicht gegen Bosse.": "Wirkt nicht gegen Bosse.",
+  "Vor Bossen gibt es kein Entkommen.": "Vor Bossen gibt es kein Entkommen.",
+  "{0} (verkauft)": "{0} (verkauft)",
+  "{0} (Hotbar voll)": "{0} (Hotbar voll)",
+  "Erhalten: {0}": "Erhalten: {0}",
+  "Nichts passiert.": "Nichts passiert.",
+  "Die nächste Kiste startet blau.": "Die nächste Kiste startet blau.",
+  "Nächste Kiste: Wahl aus 3.": "Nächste Kiste: Wahl aus 3.",
+  "Du bist nicht verflucht.": "Du bist nicht verflucht.",
+  "Fluch gelöst: {0}": "Fluch gelöst: {0}",
+  "Du hast keine Schulden.": "Du hast keine Schulden.",
+  "−{0} Schulden": "−{0} Schulden",
+  "{0} gefunden – Hotbar voll.": "{0} gefunden – Hotbar voll.",
+  "{0} gefunden – Hotbar voll, dafür +{1}.": "{0} gefunden – Hotbar voll, dafür +{1}.",
+  "{0} liegt jetzt in deiner Hotbar.": "{0} liegt jetzt in deiner Hotbar.",
+  "Keine Relikte mehr verfügbar.": "Keine Relikte mehr verfügbar.",
+  "{0} gefunden – alle Plätze sind belegt.": "{0} gefunden – alle Plätze sind belegt.",
+  "{0} – kein Platz frei, verkauft für {1}.": "{0} – kein Platz frei, verkauft für {1}.",
+  "Neues Relikt: {0}": "Neues Relikt: {0}",
+  "Neues Relikt: {0}.": "Neues Relikt: {0}.",
+  "+{0} auf dein Konto.": "+{0} auf dein Konto.",
+  "Die nächsten 3 Spins zahlen doppelt.": "Die nächsten 3 Spins zahlen doppelt.",
+  "Die nächsten 2 Spins: alle Muster aktiv.": "Die nächsten 2 Spins: alle Muster aktiv.",
+  "+2 Spins.": "+2 Spins.",
+  "Nächster Spin: {wild} erscheinen 4× so oft.": "Nächster Spin: {wild} erscheinen 4× so oft.",
+  "Ein Felsbrocken trifft den Gegner: −{0} Leben.": "Ein Felsbrocken trifft den Gegner: −{0} Leben.",
+  "+1 ❤️": "+1 ❤️",
+  "Nächster Spin ist gratis und zahlt doppelt.": "Nächster Spin ist gratis und zahlt doppelt.",
+  "−1 Spin.": "−1 Spin.",
+  "Du trotzt dem Sturm.": "Du trotzt dem Sturm.",
+  "Nächster Spin zahlt nur die Hälfte.": "Nächster Spin zahlt nur die Hälfte.",
+  "−{0}": "−{0}",
+  "Der Gegner trinkt einen Heiltrank: +{0} Leben.": "Der Gegner trinkt einen Heiltrank: +{0} Leben.",
+  "Der Teufel findet keinen Fluch mehr für dich.": "Der Teufel findet keinen Fluch mehr für dich.",
+  "Du bist verflucht: {0}.": "Du bist verflucht: {0}.",
+  "Der Teufel kassiert {0}.": "Der Teufel kassiert {0}.",
+  "Die nächsten 2 Spins drohen Teufelsmuster!": "Die nächsten 2 Spins drohen Teufelsmuster!",
+  "Der Steuer-Opa will {0} nachgezahlt haben.": "Der Steuer-Opa will {0} nachgezahlt haben.",
+  "Die nächsten 3 Spins: {tax} 4× so oft.": "Die nächsten 3 Spins: {tax} 4× so oft.",
+  "Kein Kampf aktiv.": "Kein Kampf aktiv.",
+  "Der Gegner ist schon besiegt.": "Der Gegner ist schon besiegt.",
+  "Keine Spins mehr.": "Keine Spins mehr.",
+  "Zu wenig Geld für den Einsatz.": "Zu wenig Geld für den Einsatz.",
+  "Nichts aufzugeben.": "Nichts aufzugeben.",
+  "Kreditrahmen ausgeschöpft.": "Kreditrahmen ausgeschöpft.",
+  "Nichts zu tilgen.": "Nichts zu tilgen.",
+  "Kein Relikt.": "Kein Relikt.",
+  "Dann hättest du zu wenige Plätze.": "Dann hättest du zu wenige Plätze.",
+  "Leerer Platz.": "Leerer Platz.",
+  "Keine Beute.": "Keine Beute.",
+  "Pro Besuch gibt es nur eine Kiste.": "Pro Besuch gibt es nur eine Kiste.",
+  "Zu wenig Geld.": "Zu wenig Geld.",
+  "Schon verkauft.": "Schon verkauft.",
+  "Mehr Proviant passt nicht ins Gepäck.": "Mehr Proviant passt nicht ins Gepäck.",
+  "Kein Fluch.": "Kein Fluch.",
+  "Tauschen geht nur im Basar.": "Tauschen geht nur im Basar.",
+  "Kein Tauschpartner gefunden.": "Kein Tauschpartner gefunden.",
+  "Ein Boxkampf durch die Zeit": "Ein Boxkampf durch die Zeit",
+  "Tippe auf den Automaten, um zu starten.": "Tippe auf den Automaten, um zu starten.",
+  "Offizielle Seite": "Offizielle Seite",
+  "Hell": "Hell",
+  "Dunkel": "Dunkel",
+  "Leben": "Leben",
+  "Automat antippen, um zu starten": "Automat antippen, um zu starten",
+  "Namen ändern": "Namen ändern",
+  "Spielmodus": "Spielmodus",
+  "Vorheriges Level": "Vorheriges Level",
+  "Darstellung": "Darstellung",
+  "Menü öffnen": "Menü öffnen",
+  "Ton an/aus": "Ton an/aus",
+  "Infos zu Gewinnen, Mustern und Gegnern": "Infos zu Gewinnen, Mustern und Gegnern",
+  "Spielautomat": "Spielautomat",
+  "{coin} zahlt ×3": "{coin} zahlt ×3",
+  "🎀 Gratis": "🎀 Gratis",
+  "📎 Halten": "📎 Halten",
+  "⚓ Joker bleiben": "⚓ Joker bleiben",
+  "🛡️ Versichert": "🛡️ Versichert",
+  "🍵 Linien ×3": "🍵 Linien ×3",
+  "📖 Alle Muster": "📖 Alle Muster",
+  "📍 Muster ×3": "📍 Muster ×3",
+  "🌠 Sicherer Treffer": "🌠 Sicherer Treffer",
+  "🍄 Sicherer Treffer": "🍄 Sicherer Treffer",
+  "⏪ Gratis": "⏪ Gratis",
+  "🌿 Gereinigt": "🌿 Gereinigt",
+  "🎣 Teufel ×6": "🎣 Teufel ×6",
+  "📜 Alle Muster": "📜 Alle Muster",
+  "🧞 Gratis": "🧞 Gratis",
+  "🔥 Ritual": "🔥 Ritual",
+  "{wild} Mitte": "{wild} Mitte",
+  "{wild} Ecken": "{wild} Ecken",
+  "{wild} Kreuz": "{wild} Kreuz"
+ },
+ "items": {
+  "pay_cherry": [
+   "{~cherry}-Talisman",
+   "{cherry} zahlt ×1,7."
+  ],
+  "pay_lemon": [
+   "{~lemon}-Talisman",
+   "{lemon} zahlt ×2,2."
+  ],
+  "pay_grape": [
+   "{~grape}-Talisman",
+   "{grape} zahlt ×3."
+  ],
+  "pay_bell": [
+   "{~bell}-Talisman",
+   "{bell} zahlt ×4 und erscheint 1,9-mal so oft."
+  ],
+  "pay_clover": [
+   "{~clover}-Talisman",
+   "{clover} zahlt ×5 und erscheint 2,1-mal so oft."
+  ],
+  "pay_diamond": [
+   "{~diamond}-Talisman",
+   "{diamond} zahlt ×5 und erscheint 2,2-mal so oft."
+  ],
+  "pay_seven": [
+   "{~seven}-Talisman",
+   "{seven} zahlt ×5 und erscheint 3-mal so oft."
+  ],
+  "fruitbowl": [
+   "Obstkorb",
+   "{cherry}{lemon}{grape} zahlen ×1,6."
+  ],
+  "treasury": [
+   "Schatzkammer",
+   "{diamond} und {seven} zahlen ×5."
+  ],
+  "w_wild": [
+   "Narrenkönig",
+   "{wild} erscheinen doppelt so oft."
+  ],
+  "ban_cherry": [
+   "{~cherry}-Bann",
+   "{cherry} erscheint 55% seltener – alles andere öfter."
+  ],
+  "ban_lemon": [
+   "{~lemon}-Bann",
+   "{lemon} erscheint 55% seltener – alles andere öfter."
+  ],
+  "ban_grape": [
+   "{~grape}-Bann",
+   "{grape} erscheint 55% seltener – alles andere öfter."
+  ],
+  "blackhole": [
+   "Schwarzes Loch",
+   "{cherry} verschwindet komplett – alles andere kommt öfter."
+  ],
+  "col_fruit": [
+   "Erntehelfer",
+   "Jedes {cherry}{lemon}{grape} im Feld bringt +5% des Einsatzes."
+  ],
+  "tm_clover_wild": [
+   "Narrenkraut",
+   "{clover} verwandelt sich mit 35% Chance in {wild}."
+  ],
+  "tm_bell_seven": [
+   "Gießerei",
+   "{bell} verwandelt sich mit 40% Chance in {seven}."
+  ],
+  "tm_lemon_diamond": [
+   "Schleifstein",
+   "{lemon} verwandelt sich mit 25% Chance in {diamond}."
+  ],
+  "g0": [
+   "Glückspfennig",
+   "Alle Gewinne +15%."
+  ],
+  "g1": [
+   "Marienkäfer",
+   "Alle Gewinne +30%."
+  ],
+  "g2": [
+   "Glücksschwein",
+   "Alle Gewinne +55%."
+  ],
+  "g3": [
+   "Füllhorn",
+   "Alle Gewinne +80%."
+  ],
+  "lt_row": [
+   "Waagerechte",
+   "Reihen zahlen ×2."
+  ],
+  "lt_col": [
+   "Senkrechte",
+   "Spalten zahlen ×2."
+  ],
+  "lt_diag": [
+   "Schräge",
+   "Diagonalen zahlen ×2,5."
+  ],
+  "p_temple": [
+   "Bauplan",
+   "Neue Muster: Obelisk und Tempel (je ×25 Symbolwert)."
+  ],
+  "p_tomb": [
+   "Schatzgewölbe",
+   "Neue Muster: Haken, Blitz und Treppe (je ×100 Symbolwert)."
+  ],
+  "p_star": [
+   "Sternkarte",
+   "Neue Muster: Sanduhr, Pyramide und Tor (je ×250 Symbolwert)."
+  ],
+  "p_ring": [
+   "Goldrahmen",
+   "Neues Muster: Rahmen (×800). Außerdem zahlen alle Muster doppelt."
+  ],
+  "p_pyr": [
+   "Turmspitze",
+   "Das Muster Pyramide (×250) ist aktiv und zahlt doppelt."
+  ],
+  "pb_ce": [
+   "Eckpfeiler",
+   "Die Muster Block und Welle zahlen ×2,5."
+  ],
+  "pb_px": [
+   "Kreuzweg",
+   "Die Muster Kreuz und Winkel zahlen ×3."
+  ],
+  "xl": [
+   "Wegnetz",
+   "+4 Gewinnlinien in V- und Hakenform."
+  ],
+  "horus": [
+   "Adlerauge",
+   "Alle Muster zahlen ×3."
+  ],
+  "compass": [
+   "Kompass",
+   "Linien zahlen ×1,3 und Muster ×1,5."
+  ],
+  "wildx": [
+   "Narrenkappe",
+   "Linien mit {wild} zahlen ×2,5."
+  ],
+  "wildheart": [
+   "Wildes Herz",
+   "Das Mittelfeld wird mit 30% Chance zum {wild}."
+  ],
+  "wildfang": [
+   "Wildfang",
+   "Jedes Feld wird mit 5% Chance zum {wild}."
+  ],
+  "sarco": [
+   "Zeitkapsel",
+   "Zu Rundenbeginn wird ein zufälliges Feld für die ganze Runde zum {wild}."
+  ],
+  "honey": [
+   "Wildhonig",
+   "{wild} bleiben einen Spin lang kleben."
+  ],
+  "sc": [
+   "Klingelbeutel",
+   "{coin}-Gewinne ×3."
+  ],
+  "scmin": [
+   "Zwei reichen",
+   "Schon 2 {coin} zahlen (×2 Einsatz)."
+  ],
+  "scspin": [
+   "Münzautomat",
+   "3+ {coin} geben +2 statt +1 Spin."
+  ],
+  "magnet": [
+   "Magnet",
+   "{coin} erscheinen doppelt so oft und zahlen ×3."
+  ],
+  "sp1": [
+   "Taschenuhr",
+   "+1 Spin pro Runde."
+  ],
+  "sp2": [
+   "Sanduhr",
+   "+2 Spins pro Runde."
+  ],
+  "early": [
+   "Frühaufsteher",
+   "Der erste Spin jeder Runde kostet keinen Einsatz."
+  ],
+  "jokerzeit": [
+   "Joker-Zeit",
+   "Gewinnt eine Linie mit {wild}, gibt es +1 Spin."
+  ],
+  "ankh": [
+   "Lebensfunke",
+   "Einmal pro Runde: Gehen dir die Spins aus, während der Gegner noch lebt, gibt es +2 Spins."
+  ],
+  "loop": [
+   "Zeitschleife",
+   "Nieten kosten mit 40% Chance keinen Spin."
+  ],
+  "sundial": [
+   "Sonnenuhr",
+   "Ab dem 3. Spin einer Runde zahlt jeder Spin ×1,5."
+  ],
+  "rab": [
+   "Rabattmarke",
+   "Alles im Basar 20% günstiger."
+  ],
+  "zins": [
+   "Sparbuch",
+   "Rundenende: +10% Zinsen auf dein Guthaben (max. 8× Einsatz)."
+  ],
+  "luck1": [
+   "Glückslos",
+   "Glück +1: Kisten werten sich öfter auf."
+  ],
+  "luck2": [
+   "Glücksstern",
+   "Glück +4: Kisten werten sich viel öfter auf."
+  ],
+  "pick1": [
+   "Gezinkte Karten",
+   "Kisten lassen dich 25% öfter wählen."
+  ],
+  "pick2": [
+   "Ass im Ärmel",
+   "Kisten lassen dich 45% öfter wählen – und viel öfter aus 3."
+  ],
+  "cash": [
+   "Stechuhr",
+   "Übrige Spins zahlen am Ende des Kampfes zusätzlich je 4,5× den Einsatz aus."
+  ],
+  "trader": [
+   "Händlerfreund",
+   "Ein zusätzliches Angebot im Basar."
+  ],
+  "reroll": [
+   "Wanderwürfel",
+   "Ein kostenloser Neuwurf pro Basar-Besuch."
+  ],
+  "bounty": [
+   "Kopfgeldjäger",
+   "Besiegte Gegner zahlen 2,5× so viel Kopfgeld."
+  ],
+  "banker": [
+   "Bankierskarte",
+   "Doppelter Kreditrahmen, halbe Zinsen."
+  ],
+  "pension": [
+   "Rentenfonds",
+   "Rundenende: +1× Einsatz je Relikt."
+  ],
+  "camp": [
+   "Basislager",
+   "Rundenende: +3× Einsatz."
+  ],
+  "hat": [
+   "Zauberer",
+   "Zu Beginn jeder Runde: ein zufälliger Verbrauchsgegenstand."
+  ],
+  "moon": [
+   "Mondsichel",
+   "Übrige Spins zahlen am Ende des Kampfes zusätzlich je 1,5× den Einsatz aus."
+  ],
+  "timekeeper": [
+   "Zeitwächter",
+   "Proviant im Basar kostet die Hälfte."
+  ],
+  "map": [
+   "Schatzkarte",
+   "Kisten werten sich 12% leichter auf."
+  ],
+  "pickaxe": [
+   "Spitzhacke",
+   "Beute-Kisten von Gegnern starten mindestens grün."
+  ],
+  "trost": [
+   "Pflaster",
+   "Nieten geben 25% des Einsatzes zurück."
+  ],
+  "police": [
+   "Versicherungspolice",
+   "Die erste Niete jeder Runde wird voll erstattet."
+  ],
+  "cat1": [
+   "Katzenleben",
+   "+1 ❤️ (sofort)."
+  ],
+  "phoenix": [
+   "Phönixfeder",
+   "+2 ❤️ (sofort)."
+  ],
+  "hot1": [
+   "Gürteltasche",
+   "+1 Hotbar-Platz."
+  ],
+  "slots1": [
+   "Packpferd",
+   "+1 Relikt-Platz."
+  ],
+  "slots2": [
+   "Satteltaschen",
+   "+2 Relikt-Plätze."
+  ],
+  "book": [
+   "Zweite Luft",
+   "Verlierst du gegen einen Gegner, behältst du dein ❤️ mit 50% Chance."
+  ],
+  "flask": [
+   "Feldflasche",
+   "Nach jedem besiegten Boss: +1 ❤️."
+  ],
+  "nazar": [
+   "Nazar-Amulett",
+   "Der Teufel kann deine Kisten nicht mehr verfluchen."
+  ],
+  "streak": [
+   "Siegesserie",
+   "+50% Gewinn je Gewinn-Spin in Folge (max. +200%)."
+  ],
+  "lotus": [
+   "Seerose",
+   "Nach einer Niete zahlt der nächste Gewinn ×1,6."
+  ],
+  "chain": [
+   "Kettenreaktion",
+   "+50% je zusätzlicher Gewinnlinie im selben Spin."
+  ],
+  "comet": [
+   "Komet",
+   "Gewinne ×4, wenn 3+ Linien gleichzeitig gewinnen."
+  ],
+  "cd_fin": [
+   "Finale",
+   "Gewinne ×1,7 im letzten Spin der Runde."
+  ],
+  "cd_einz": [
+   "Einzelgänger",
+   "Gewinne ×1,5 wenn genau 1 Linie gewinnt."
+  ],
+  "cd_pur": [
+   "Purist",
+   "Gewinne ×1,5 wenn kein {wild} beteiligt ist."
+  ],
+  "cd_jok": [
+   "Jokerfreund",
+   "Gewinne ×1,6 wenn ein {wild} beteiligt ist."
+  ],
+  "cd_voll": [
+   "Volle Taschen",
+   "Gewinne ×1,5 wenn deine Hotbar voll ist."
+  ],
+  "cd_leer": [
+   "Leere Taschen",
+   "Gewinne ×1,3 wenn deine Hotbar leer ist."
+  ],
+  "cd_bunt": [
+   "Kunterbunt",
+   "Gewinne ×2 bei 6+ verschiedenen Symbolen im Feld."
+  ],
+  "cd_mono": [
+   "Eintönig",
+   "Gewinne ×2 bei höchstens 4 verschiedenen Symbolen im Feld."
+  ],
+  "cd_frucht": [
+   "Obstsalat",
+   "Gewinne ×1,35 wenn {cherry}{lemon}{grape} gewinnen."
+  ],
+  "cd_edel": [
+   "Juwelier",
+   "Gewinne ×2,5 wenn {diamond} oder {seven} gewinnen."
+  ],
+  "cd_laut": [
+   "Glockenläuten",
+   "Gewinne ×2 wenn {bell} oder {clover} gewinnen."
+  ],
+  "cd_mercy": [
+   "Gnadenstoß",
+   "Gewinne ×2,5 wenn der Gegner unter 30% Leben hat."
+  ],
+  "cd_hero": [
+   "Heldenmut",
+   "Gewinne ×2 gegen Bosse und Champions."
+  ],
+  "cd_kater": [
+   "Frecher Kater",
+   "Gewinne ×2,5 wenn {devil} oder {tax} im Feld liegen."
+  ],
+  "cd_camera": [
+   "Kamera",
+   "Gewinne ×2 beim ersten Treffer jeder Runde."
+  ],
+  "cd_clock": [
+   "Uhrwerk",
+   "Gewinne ×2,2 bei jedem 3. Spin einer Runde."
+  ],
+  "sammelwut": [
+   "Sammelwut",
+   "+8% Gewinn je Relikt, das du besitzt."
+  ],
+  "herzblut": [
+   "Herzblut",
+   "+15% Gewinn je ❤️."
+  ],
+  "spear": [
+   "Wikingerspeer",
+   "Jeder Spin verursacht zusätzlich ½ Einsatz Schaden."
+  ],
+  "torch": [
+   "Fackel",
+   "Deine Treffer machen 30% mehr Schaden."
+  ],
+  "bow": [
+   "Jagdbogen",
+   "Auch Nieten treffen: 1× Einsatz Schaden."
+  ],
+  "poison": [
+   "Pfeilgift",
+   "Gegner starten mit 15% weniger Leben."
+  ],
+  "tooth": [
+   "Säbelzahn",
+   "Bosse und Champions haben 20% weniger Leben."
+  ],
+  "robber": [
+   "Langfinger",
+   "Besiegte Gegner hinterlassen zusätzlich einen Verbrauchsgegenstand."
+  ],
+  "obsidian": [
+   "Obsidian-Klinge",
+   "Doppelter Schaden gegen Bosse und Champions."
+  ],
+  "brooch": [
+   "Glücksbrosche",
+   "Einmal pro Runde: Fällt der Gegner unter 50% Leben, gibt es +1 Spin."
+  ],
+  "holy": [
+   "Weihwasser",
+   "Der {devil} Teufel stiehlt nichts mehr – auch nicht mit Mustern."
+  ],
+  "dvban": [
+   "Teufelsbanner",
+   "{devil} und Teufelsmuster erscheinen 80% seltener."
+  ],
+  "fork": [
+   "Dreizack",
+   "Jeder {devil} zahlt ×4 Einsatz, statt zu stehlen."
+  ],
+  "pact": [
+   "Pakt mit dem Teufel",
+   "Alle Gewinne ×1,8 – aber {devil} und Teufelsmuster dreimal so oft."
+  ],
+  "roast": [
+   "Teufelsbraten",
+   "Jeder {devil} im Feld gibt +1 Spin."
+  ],
+  "fiddler": [
+   "Teufelsgeiger",
+   "Jeder {devil} im Feld: Gewinn ×2,5."
+  ],
+  "taxadv": [
+   "Steuerberater",
+   "Der {tax} Steuer-Opa nimmt dir nichts mehr."
+  ],
+  "taxhaven": [
+   "Steueroase",
+   "Jeder {tax} zahlt ×3 Einsatz, statt Steuern zu nehmen."
+  ],
+  "fiscal": [
+   "Steuerfahnder",
+   "{devil} und {tax} nehmen nur noch die Hälfte."
+  ],
+  "exorcist": [
+   "Exorzist",
+   "Jeder {devil} wird zum {wild} – auch ganze Teufelsmuster."
+  ],
+  "midas": [
+   "Midas-Hand",
+   "Jeder Gewinn wird mit 50% Chance verdoppelt."
+  ],
+  "dice": [
+   "Schicksalswürfel",
+   "Jeder Gewinn wird zufällig mit ×0,5 bis ×3 multipliziert."
+  ],
+  "hoard": [
+   "Drachenhort",
+   "Alle Gewinne ×1,7 – aber der Basar ist 25% teurer."
+  ],
+  "candle": [
+   "Schwarze Kerze",
+   "Alle Gewinne ×3,2 – aber 1 Spin weniger pro Runde."
+  ],
+  "altar": [
+   "Opferaltar",
+   "Alle Gewinne ×1,7 – aber 1 Hotbar-Platz weniger."
+  ],
+  "prism": [
+   "Prisma",
+   "Linien durch das Mittelfeld zahlen ×3."
+  ],
+  "snowball": [
+   "Schneeball",
+   "+5% Gewinn je Gewinn-Spin seit Erhalt (wächst, max. +400%)."
+  ],
+  "ouro": [
+   "Ewiger Kreis",
+   "Gewinne +50% für jede Runde seit Erhalt (wächst ohne Grenze)."
+  ],
+  "crown": [
+   "Königskrone",
+   "Alle Gewinne ×3."
+  ],
+  "infinity": [
+   "Unendlichkeit",
+   "Alle Gewinne ×2,5 – und jeder Treffer gibt mit 40% Chance +1 Spin."
+  ],
+  "philo": [
+   "Stein der Weisen",
+   "{cherry}{lemon}{grape} verwandeln sich mit 30% Chance in {diamond}."
+  ],
+  "sungod": [
+   "Sonnenkönig",
+   "Jeder Spin: ein zufälliges Feld wird {wild} – und alle Gewinne ×2."
+  ],
+  "pharaoh": [
+   "Segen des Champions",
+   "Alle Gewinne ×2 und +1 Spin pro Runde."
+  ],
+  "mirror": [
+   "Spiegelkabinett",
+   "Die untere Reihe spiegelt die obere Reihe."
+  ],
+  "wheel": [
+   "Glücksrad",
+   "Vor jedem Spin wird ein Symbol ausgelost: Es zahlt ×6."
+  ],
+  "swan": [
+   "Goldener Schwan",
+   "Jeder Spin bringt zusätzlich 1,5× Einsatz aufs Konto."
+  ],
+  "tnt": [
+   "Dynamit",
+   "Jeder Spin: 70% Chance, dass ein zufälliges Feld zum {wild} wird."
+  ],
+  "stardust": [
+   "Sternenstaub",
+   "{wild} werden mit jeder Runde 30% häufiger (wächst)."
+  ],
+  "lantern": [
+   "Laterne",
+   "Der erste Spin jeder Runde gewinnt garantiert."
+  ],
+  "genie": [
+   "Wunderlampe",
+   "Die ersten 3 Spins jeder Runde gewinnen garantiert."
+  ],
+  "backpack": [
+   "Reise-Rucksack",
+   "Jeder Gewinn-Spin: 12% Chance auf einen Verbrauchsgegenstand."
+  ],
+  "spirit": [
+   "Abenteuerlust",
+   "Zufallsereignisse passieren doppelt so oft."
+  ],
+  "sunamulet": [
+   "Sonnenamulett",
+   "Es passieren nur noch gute Ereignisse."
+  ],
+  "camel": [
+   "Lastesel",
+   "Die Sonderregeln von Bossen gelten für dich nicht (außer bei Champions)."
+  ],
+  "fox": [
+   "Präriefuchs",
+   "Gewinne +25%, bei 3+ Linien zusätzlich ×1,5."
+  ],
+  "barque": [
+   "Drachenboot",
+   "+1 Spin pro Runde und alle Gewinne +30%."
+  ],
+  "brush": [
+   "Pinsel",
+   "Alle Verwandlungen passieren doppelt so oft."
+  ],
+  "kartusche": [
+   "Trophäenwand",
+   "+6% Gewinn je besiegtem Gegner (wächst)."
+  ],
+  "riddle": [
+   "Rätsel des Orakels",
+   "Alle Gewinne ×2 – und jede Niete wird mit 30% Chance erstattet."
+  ],
+  "crystal": [
+   "Kristallkugel",
+   "Einmal pro Runde wird eine Niete sofort neu gedreht."
+  ],
+  "biggame": [
+   "Großwildjäger",
+   "Gewinne ab 10× Einsatz werden verdoppelt."
+  ],
+  "ants": [
+   "Ameisenstaat",
+   "Gewinne unter 3× Einsatz werden verdreifacht."
+  ],
+  "twins": [
+   "Zwillingsstern",
+   "Gewinnen 2+ Linien mit demselben Symbol, zahlen sie doppelt."
+  ],
+  "maat": [
+   "Waage der Justitia",
+   "Alle Gewinne ×1,8 – aber {devil} und {tax} nehmen doppelt."
+  ],
+  "luckycat": [
+   "Glückskatze",
+   "+1 ❤️ (sofort) und alle Gewinne +80%."
+  ],
+  "cm_keks": [
+   "Glückskeks",
+   "Nächster Spin: Gewinn ×2."
+  ],
+  "cm_rakete": [
+   "Rakete",
+   "Nächster Spin: Gewinn ×4."
+  ],
+  "cm_nova": [
+   "Supernova",
+   "Nächster Spin: Gewinn ×8."
+  ],
+  "cm_bang": [
+   "Urknall",
+   "Nächster Spin: Gewinn ×25."
+  ],
+  "cm_streak": [
+   "Glückssträhne",
+   "Die nächsten 3 Spins: Gewinn ×1,5."
+  ],
+  "cm_solst": [
+   "Sonnenwende",
+   "Die nächsten 3 Spins: Gewinn ×3."
+  ],
+  "rain_wild": [
+   "Jokerregen",
+   "Nächster Spin: {wild} erscheint 4× so oft."
+  ],
+  "rain_diamond": [
+   "Diamantregen",
+   "Nächster Spin: {diamond} erscheint 4× so oft."
+  ],
+  "rain_seven": [
+   "Siebenregen",
+   "Nächster Spin: {seven} erscheint 4× so oft."
+  ],
+  "magstorm": [
+   "Magnetsturm",
+   "Nächster Spin: {coin} erscheinen 5× so oft und zahlen ×3."
+  ],
+  "jk1": [
+   "Joker-Karte",
+   "Nächster Spin: ein zufälliges Feld wird {wild}."
+  ],
+  "jk3": [
+   "Joker-Trio",
+   "Nächster Spin: drei zufällige Felder werden {wild}."
+  ],
+  "jkm": [
+   "Joker-Mitte",
+   "Nächster Spin: Das Mittelfeld wird {wild}."
+  ],
+  "jkc": [
+   "Joker-Ecken",
+   "Nächster Spin: Alle 4 Ecken werden {wild}."
+  ],
+  "jkx": [
+   "Joker-Kreuz",
+   "Nächster Spin: Ein Kreuz aus 5 Feldern wird {wild}."
+  ],
+  "cs1": [
+   "Extraticket",
+   "+1 Spin in diesem Kampf."
+  ],
+  "cs2": [
+   "Doppelticket",
+   "+2 Spins in diesem Kampf."
+  ],
+  "cs4": [
+   "Zeitkristall",
+   "+4 Spins in diesem Kampf."
+  ],
+  "cf3": [
+   "Freispiel-Trio",
+   "Die nächsten 3 Spins kosten keinen Einsatz."
+  ],
+  "hold": [
+   "Klammer",
+   "Nächster Spin: Die mittlere Reihe behält ihre Symbole."
+  ],
+  "anchor": [
+   "Joker-Anker",
+   "Nächster Spin: Alle {wild} des letzten Spins bleiben liegen."
+  ],
+  "ins": [
+   "Versicherung",
+   "Nächster Spin: Bei einer Niete gibt es 2× Einsatz zurück."
+  ],
+  "cg0": [
+   "Sparschwein",
+   "Sofort +4× Einsatz aufs Konto."
+  ],
+  "cg1": [
+   "Geldbündel",
+   "Sofort +10× Einsatz aufs Konto."
+  ],
+  "cg2": [
+   "Siegerpokal",
+   "Sofort +25× Einsatz aufs Konto."
+  ],
+  "cg3": [
+   "Tresor",
+   "Sofort +60× Einsatz aufs Konto."
+  ],
+  "lotto": [
+   "Rubbellos",
+   "50% Chance: sofort +20× Einsatz."
+  ],
+  "red": [
+   "Alles auf Rot",
+   "50%: Konto +30% · 50%: Konto −15%."
+  ],
+  "boomerang": [
+   "Bumerang",
+   "Trifft den Gegner sofort für 15% seines maximalen Lebens."
+  ],
+  "bomb": [
+   "Sprengladung",
+   "Trifft sofort für 30% des maximalen Lebens (Bosse: 15%)."
+  ],
+  "secret": [
+   "Geheimgang",
+   "Ein normaler Gegner ist sofort besiegt (kein Boss)."
+  ],
+  "smoke": [
+   "Rauchbombe",
+   "Flieh vor einem normalen Gegner: kein ❤️ verloren, aber auch keine Beute."
+  ],
+  "elx_fruit": [
+   "Fruchtelixier",
+   "Nächster Spin: {cherry}{lemon}{grape} zahlen ×5."
+  ],
+  "elx_gem": [
+   "Edelelixier",
+   "Nächster Spin: {diamond} und {seven} zahlen ×5."
+  ],
+  "tonic": [
+   "Linien-Tonikum",
+   "Nächster Spin: Alle Linien zahlen ×3."
+  ],
+  "heart1": [
+   "Herzstück",
+   "+1 ❤️."
+  ],
+  "heart2": [
+   "Lebenselixier",
+   "+2 ❤️."
+  ],
+  "ctm_d": [
+   "Midas-Tropfen",
+   "Nächster Spin: Alle {lemon} werden zu {diamond}."
+  ],
+  "ctm_7": [
+   "Siebenerzauber",
+   "Nächster Spin: Alle {cherry} werden zu {seven}."
+  ],
+  "egg": [
+   "Überraschungsei",
+   "Verwandelt sich in 2 zufällige Verbrauchsgegenstände."
+  ],
+  "bag": [
+   "Wundertüte",
+   "Gibt ein zufälliges Relikt (gewöhnlich bis selten)."
+  ],
+  "pandora": [
+   "Büchse der Pandora",
+   "Gibt ein zufälliges Relikt (episch bis mythisch)."
+  ],
+  "patbook": [
+   "Musterbuch",
+   "Nächster Spin: Alle 13 Muster sind aktiv."
+  ],
+  "needle": [
+   "Kompassnadel",
+   "Nächster Spin: Muster zahlen ×3."
+  ],
+  "guar1": [
+   "Sternstunde",
+   "Der nächste Spin gewinnt garantiert."
+  ],
+  "guar3": [
+   "Glückspilz",
+   "Die nächsten 3 Spins gewinnen garantiert."
+  ],
+  "dorn": [
+   "Doppelt oder nichts",
+   "Nächster Spin: Gewinn ×3 – eine Niete kostet aber doppelt."
+  ],
+  "rewind": [
+   "Zeitumkehr",
+   "+1 Spin, und der nächste Spin kostet nichts."
+  ],
+  "sage": [
+   "Salbei",
+   "Die nächsten 5 Spins: kein {devil}, kein {tax}, keine Teufelsmuster."
+  ],
+  "devilrod": [
+   "Teufelsangel",
+   "Nächster Spin: {devil} erscheinen 6× so oft, zahlen aber je ×5 Einsatz."
+  ],
+  "report": [
+   "Zeitreisebericht",
+   "Löst sofort ein gutes Zufallsereignis aus."
+  ],
+  "goldkey": [
+   "Goldener Schlüssel",
+   "Deine nächste Kiste startet mindestens blau."
+  ],
+  "vote": [
+   "Wahlrecht",
+   "Bei deiner nächsten Kiste darfst du aus 3 wählen."
+  ],
+  "exor": [
+   "Bannspruch",
+   "Löst einen zufälligen Fluch."
+  ],
+  "debtcut": [
+   "Schuldenerlass",
+   "Halbiert deine Schulden."
+  ],
+  "cu_geiz": [
+   "Fluch des Geizes",
+   "Alle Gewinne −15%."
+  ],
+  "cu_uhr": [
+   "Rostige Uhr",
+   "−1 Spin pro Runde."
+  ],
+  "cu_mal": [
+   "Teufelsmal",
+   "{devil} und Teufelsmuster doppelt so oft."
+  ],
+  "cu_steuer": [
+   "Steuerbescheid",
+   "{tax} erscheinen doppelt so oft."
+  ],
+  "cu_tasche": [
+   "Löchrige Tasche",
+   "−1 Hotbar-Platz."
+  ],
+  "cu_blei": [
+   "Bleierne Truhen",
+   "Kisten werten sich viel seltener auf."
+  ],
+  "cu_faeule": [
+   "Fruchtfäule",
+   "{cherry} zahlen nichts mehr."
+  ],
+  "cu_sand": [
+   "Sand im Getriebe",
+   "{wild} erscheinen halb so oft."
+  ],
+  "cu_wucher": [
+   "Wucher",
+   "Alles im Basar 30% teurer."
+  ],
+  "cu_katze": [
+   "Schwarze Katze",
+   "Jeder Spin: 15% Chance, dass ein Feld zum {devil} wird."
+  ],
+  "cu_nebel": [
+   "Getrübter Blick",
+   "Muster zahlen nur die Hälfte."
+  ],
+  "cu_mumie": [
+   "Staubfluch",
+   "Der erste Spin jeder Runde zahlt nichts."
+  ],
+  "cu_pech": [
+   "Pechvogel",
+   "Gute Ereignisse werden selten, schlechte häufig."
+  ],
+  "cu_brack": [
+   "Brackwasser",
+   "Jede Niete kostet zusätzlich ½ Einsatz."
+  ],
+  "cu_pharao": [
+   "Fluch des Champions",
+   "Gegner haben 15% mehr Leben."
+  ]
+ },
+ "foes": {
+  "dino:mob:scarab": [
+   "Kompsognathus",
+   "Winzig und harmlos – keine Sonderregeln."
+  ],
+  "dino:mob:cobra": [
+   "Giftschlange",
+   "Giftbiss: Jede Niete kostet zusätzlich 1 Einsatz."
+  ],
+  "dino:mob:scorp": [
+   "Ankylosaurus",
+   "Knochenpanzer: Treffer machen 30% weniger Schaden."
+  ],
+  "dino:mob:jackal": [
+   "Raptorenrudel",
+   "Hetzjagd: Diagonalen zahlen nichts."
+  ],
+  "dino:mob:vulture": [
+   "Flugsaurier",
+   "Sturzflug: Alle Gewinne −25%."
+  ],
+  "dino:mob:spider": [
+   "Riesenlibelle",
+   "Schwirrflug: Die mittlere Reihe zahlt nichts."
+  ],
+  "dino:mob:croc": [
+   "Urzeit-Krokodil",
+   "Dicke Haut: 40% mehr Lebenspunkte."
+  ],
+  "dino:boss:taweret": [
+   "Triceratops",
+   "Hornschild: Treffer machen 35% weniger Schaden."
+  ],
+  "dino:boss:bastet": [
+   "Der Vulkan",
+   "Ausbruch: Jeder Gewinn wird zufällig mit ×0,3 bis ×1,2 multipliziert."
+  ],
+  "stone:mob:scarab": [
+   "Höhlenkind",
+   "Neugierig und harmlos – keine Sonderregeln."
+  ],
+  "stone:mob:bats": [
+   "Höhlenfledermäuse",
+   "Dunkelheit: Keine {coin} auf den Walzen."
+  ],
+  "stone:mob:rats": [
+   "Steinzeit-Ratten",
+   "Nagetiere: Jeder Spin kostet 50% mehr Einsatz."
+  ],
+  "stone:mob:scorp": [
+   "Wollnashorn",
+   "Zottelpanzer: Treffer machen 30% weniger Schaden."
+  ],
+  "stone:mob:mummy": [
+   "Schamane",
+   "Heilkräuter: Heilt sich nach jeder Niete um 10%."
+  ],
+  "stone:mob:sand": [
+   "Schneesturm",
+   "Whiteout: {wild} erscheinen nur noch ein Viertel so oft."
+  ],
+  "stone:mob:vulture": [
+   "Säbelzahntiger",
+   "Beutezug: Alle Gewinne −25%."
+  ],
+  "stone:boss:anubis": [
+   "Höhlenbär",
+   "Winterspeck: Jede Niete heilt den Gegner um 15%."
+  ],
+  "stone:boss:sphinx": [
+   "Clan-Ältester",
+   "Tabu: Keine {wild} auf den Walzen."
+  ],
+  "egypt:mob:scarab": [
+   "Skarabäus-Schwarm",
+   "Ein harmloser Schwarm – keine Sonderregeln."
+  ],
+  "egypt:mob:cobra": [
+   "Kobra",
+   "Giftbiss: Jede Niete kostet zusätzlich 1 Einsatz."
+  ],
+  "egypt:mob:scorp": [
+   "Riesenskorpion",
+   "Chitinpanzer: Treffer machen 30% weniger Schaden."
+  ],
+  "egypt:mob:mummy": [
+   "Mumie",
+   "Untot: Heilt sich nach jeder Niete um 10%."
+  ],
+  "egypt:mob:jackal": [
+   "Schakalrudel",
+   "Hetzjagd: Diagonalen zahlen nichts."
+  ],
+  "egypt:mob:croc": [
+   "Nilkrokodil",
+   "Dicke Haut: 40% mehr Lebenspunkte."
+  ],
+  "egypt:mob:golem": [
+   "Steinwächter",
+   "Granithaut: Muster zahlen nur ein Drittel."
+  ],
+  "egypt:boss:sphinx": [
+   "Die Große Sphinx",
+   "Rätsel: Keine {wild} auf den Walzen."
+  ],
+  "egypt:boss:anubis": [
+   "Anubis",
+   "Totengericht: Jede Niete heilt den Gegner um 15%."
+  ],
+  "rome:mob:scarab": [
+   "Taschendieb",
+   "Lange Finger, kurze Beine – keine Sonderregeln."
+  ],
+  "rome:mob:vulture": [
+   "Senator",
+   "Bestechung: Alle Gewinne −25%."
+  ],
+  "rome:mob:scorp": [
+   "Legionär",
+   "Schildkröte: Treffer machen 30% weniger Schaden."
+  ],
+  "rome:mob:rats": [
+   "Steuereintreiber",
+   "Abgaben: Jeder Spin kostet 50% mehr Einsatz."
+  ],
+  "rome:mob:jackal": [
+   "Streitwagen",
+   "Wagenrennen: Diagonalen zahlen nichts."
+  ],
+  "rome:mob:spider": [
+   "Netzkämpfer",
+   "Fangnetz: Die mittlere Reihe zahlt nichts."
+  ],
+  "rome:mob:croc": [
+   "Gladiator",
+   "Schwere Rüstung: 40% mehr Lebenspunkte."
+  ],
+  "rome:boss:bastet": [
+   "Kaiserlöwe",
+   "Launisch: Jeder Gewinn wird zufällig mit ×0,3 bis ×1,2 multipliziert."
+  ],
+  "rome:boss:taweret": [
+   "Kriegselefant",
+   "Koloss: Treffer machen 35% weniger Schaden."
+  ],
+  "viking:mob:scarab": [
+   "Schiffsjunge",
+   "Seekrank und harmlos – keine Sonderregeln."
+  ],
+  "viking:mob:scorp": [
+   "Schildmaid",
+   "Schildwall: Treffer machen 30% weniger Schaden."
+  ],
+  "viking:mob:vulture": [
+   "Odins Raben",
+   "Aasfresser: Alle Gewinne −25%."
+  ],
+  "viking:mob:sand": [
+   "Nebelbank",
+   "Nebel: {wild} erscheinen nur noch ein Viertel so oft."
+  ],
+  "viking:mob:cobra": [
+   "Seeschlange",
+   "Würgegriff: Jede Niete kostet zusätzlich 1 Einsatz."
+  ],
+  "viking:mob:croc": [
+   "Troll",
+   "Dicke Haut: 40% mehr Lebenspunkte."
+  ],
+  "viking:mob:ghost": [
+   "Draugr",
+   "Spuk: {devil} und Teufelsmuster dreimal so oft."
+  ],
+  "viking:boss:apophis": [
+   "Midgardschlange",
+   "Weltenschlange: {devil} doppelt so oft, Teufelsmuster dreimal so oft."
+  ],
+  "viking:boss:taweret": [
+   "Eisriese",
+   "Frostpanzer: Treffer machen 35% weniger Schaden."
+  ],
+  "medieval:mob:scarab": [
+   "Knappe",
+   "Übermütig und harmlos – keine Sonderregeln."
+  ],
+  "medieval:mob:rats": [
+   "Pestratten",
+   "Seuche: Jeder Spin kostet 50% mehr Einsatz."
+  ],
+  "medieval:mob:ghost": [
+   "Hexe",
+   "Hexerei: {devil} und Teufelsmuster dreimal so oft."
+  ],
+  "medieval:mob:scorp": [
+   "Ritter",
+   "Plattenrüstung: Treffer machen 30% weniger Schaden."
+  ],
+  "medieval:mob:jackal": [
+   "Raubritter",
+   "Hinterhalt: Diagonalen zahlen nichts."
+  ],
+  "medieval:mob:spider": [
+   "Kerkermeister",
+   "Kerker: Die mittlere Reihe zahlt nichts."
+  ],
+  "medieval:mob:golem": [
+   "Steingolem",
+   "Granithaut: Muster zahlen nur ein Drittel."
+  ],
+  "medieval:boss:sphinx": [
+   "Inquisitor",
+   "Bann: Keine {wild} auf den Walzen."
+  ],
+  "medieval:boss:bastet": [
+   "Hofnarr",
+   "Launisch: Jeder Gewinn wird zufällig mit ×0,3 bis ×1,2 multipliziert."
+  ],
+  "west:mob:scarab": [
+   "Präriehund",
+   "Neugierig und harmlos – keine Sonderregeln."
+  ],
+  "west:mob:cobra": [
+   "Klapperschlange",
+   "Giftbiss: Jede Niete kostet zusätzlich 1 Einsatz."
+  ],
+  "west:mob:vulture": [
+   "Geier",
+   "Aasfresser: Alle Gewinne −25%."
+  ],
+  "west:mob:rats": [
+   "Falschspieler",
+   "Gezinkte Karten: Jeder Spin kostet 50% mehr Einsatz."
+  ],
+  "west:mob:jackal": [
+   "Bandidos",
+   "Überfall: Diagonalen zahlen nichts."
+  ],
+  "west:mob:sand": [
+   "Staubsturm",
+   "Wirbelsturm: {wild} erscheinen nur noch ein Viertel so oft."
+  ],
+  "west:mob:scorp": [
+   "Gürteltier",
+   "Panzerkugel: Treffer machen 30% weniger Schaden."
+  ],
+  "west:boss:apophis": [
+   "Kopfgeldjäger",
+   "Kopfgeld: {devil} doppelt so oft, Teufelsmuster dreimal so oft."
+  ],
+  "west:boss:taweret": [
+   "Büffelherde",
+   "Stampede: Treffer machen 35% weniger Schaden."
+  ],
+  "twenties:mob:scarab": [
+   "Zeitungsjunge",
+   "Laut und harmlos – keine Sonderregeln."
+  ],
+  "twenties:mob:rats": [
+   "Schmuggler",
+   "Schmuggelzoll: Jeder Spin kostet 50% mehr Einsatz."
+  ],
+  "twenties:mob:vulture": [
+   "Kredithai",
+   "Wucherzins: Alle Gewinne −25%."
+  ],
+  "twenties:mob:ghost": [
+   "Falschspieler",
+   "Gezinkt: {devil} und Teufelsmuster dreimal so oft."
+  ],
+  "twenties:mob:spider": [
+   "Türsteher",
+   "Kein Durchkommen: Die mittlere Reihe zahlt nichts."
+  ],
+  "twenties:mob:cobra": [
+   "Taschendieb",
+   "Lange Finger: Jede Niete kostet zusätzlich 1 Einsatz."
+  ],
+  "twenties:mob:golem": [
+   "Leibwächter",
+   "Abgebrüht: Muster zahlen nur ein Drittel."
+  ],
+  "twenties:boss:bastet": [
+   "Croupier",
+   "Glücksspiel: Jeder Gewinn wird zufällig mit ×0,3 bis ×1,2 multipliziert."
+  ],
+  "twenties:boss:anubis": [
+   "Das Syndikat",
+   "Schweigegeld: Jede Niete heilt den Gegner um 15%."
+  ],
+  "neon:mob:scarab": [
+   "Rollschuh-Kid",
+   "Cool und harmlos – keine Sonderregeln."
+  ],
+  "neon:mob:bats": [
+   "Stromausfall",
+   "Blackout: Keine {coin} auf den Walzen."
+  ],
+  "neon:mob:sand": [
+   "Glitch",
+   "Bildstörung: {wild} erscheinen nur noch ein Viertel so oft."
+  ],
+  "neon:mob:spider": [
+   "Breakdancer",
+   "Headspin: Die mittlere Reihe zahlt nichts."
+  ],
+  "neon:mob:golem": [
+   "Arcade-Roboter",
+   "Pixelpanzer: Muster zahlen nur ein Drittel."
+  ],
+  "neon:mob:rats": [
+   "Punk",
+   "Krawall: Jeder Spin kostet 50% mehr Einsatz."
+  ],
+  "neon:mob:croc": [
+   "Bodybuilder",
+   "Muskeln: 40% mehr Lebenspunkte."
+  ],
+  "neon:boss:sphinx": [
+   "Spielhallen-Boss",
+   "Highscore: Keine {wild} auf den Walzen."
+  ],
+  "neon:boss:taweret": [
+   "Ghettoblaster",
+   "Bassdruck: Treffer machen 35% weniger Schaden."
+  ],
+  "future:mob:scarab": [
+   "Putzroboter",
+   "Fleißig und harmlos – keine Sonderregeln."
+  ],
+  "future:mob:scorp": [
+   "Cyborg",
+   "Titanpanzer: Treffer machen 30% weniger Schaden."
+  ],
+  "future:mob:bats": [
+   "Drohnenschwarm",
+   "Störsender: Keine {coin} auf den Walzen."
+  ],
+  "future:mob:ghost": [
+   "Virus",
+   "Infektion: {devil} und Teufelsmuster dreimal so oft."
+  ],
+  "future:mob:jackal": [
+   "Laser-Haie",
+   "Laserbiss: Diagonalen zahlen nichts."
+  ],
+  "future:mob:mummy": [
+   "Nanobots",
+   "Selbstreparatur: Heilt sich nach jeder Niete um 10%."
+  ],
+  "future:mob:golem": [
+   "Firewall",
+   "Verschlüsselt: Muster zahlen nur ein Drittel."
+  ],
+  "future:boss:apophis": [
+   "Hacker",
+   "Exploit: {devil} doppelt so oft, Teufelsmuster dreimal so oft."
+  ],
+  "future:boss:bastet": [
+   "Quanten-KI",
+   "Unschärfe: Jeder Gewinn wird zufällig mit ×0,3 bis ×1,2 multipliziert."
+  ]
+ },
+ "champ": {
+  "dino": [
+   "T-Rex",
+   "Gebrüll: {wild} erscheinen 30 % seltener.",
+   "Blutrausch: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "stone": [
+   "Mammut-Häuptling",
+   "Eiszeit: Diagonalen zahlen nichts.",
+   "Stampede: Jede Niete kostet zusätzlich 1 Einsatz, Treffer machen 25 % weniger Schaden."
+  ],
+  "egypt": [
+   "Pharao Neferkat",
+   "Fluch des Pharao: {devil} und {tax} doppelt so oft.",
+   "Zorn des Pharao: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "rome": [
+   "Kaiser Maximus",
+   "Daumen runter: Jeder Gewinn wird zufällig mit ×0,5 bis ×1,3 multipliziert.",
+   "Brot und Spiele: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "viking": [
+   "Jarl Eisenbart",
+   "Schildwall: Treffer machen 25 % weniger Schaden.",
+   "Berserker: Jede Niete heilt den Champion um 10 %, Treffer machen 15 % weniger Schaden."
+  ],
+  "medieval": [
+   "Der Drache",
+   "Feueratem: {devil} doppelt so oft, Teufelsmuster dreimal so oft.",
+   "Goldhort: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "west": [
+   "Seven-Shot Sam",
+   "Schnellzieher: Jeder Spin kostet 50 % mehr Einsatz.",
+   "Sechs Kugeln: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "twenties": [
+   "Der Pate",
+   "Schutzgeld: {tax} erscheint dreimal so oft.",
+   "Ein Angebot, das man nicht ablehnt: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "neon": [
+   "Mega-Automat",
+   "Manipuliert: Muster zahlen nur die Hälfte.",
+   "Tilt: Jede Niete heilt den Champion um 8 %, Treffer machen 25 % weniger Schaden."
+  ],
+  "future": [
+   "OMEGA",
+   "Berechnet: {devil} und {tax} doppelt so oft, Muster zahlen nur die Hälfte.",
+   "Neuberechnung: Jede Niete heilt den Champion um 10 %, Treffer machen 30 % weniger Schaden."
+  ]
+ },
+ "epochs": {
+  "dino": [
+   "Die Urzeit",
+   "65 Mio. v. Chr."
+  ],
+  "stone": [
+   "Die Steinzeit",
+   "30.000 v. Chr."
+  ],
+  "egypt": [
+   "Das Alte Ägypten",
+   "1300 v. Chr."
+  ],
+  "rome": [
+   "Das Antike Rom",
+   "80 n. Chr."
+  ],
+  "viking": [
+   "Die Wikinger",
+   "900 n. Chr."
+  ],
+  "medieval": [
+   "Das Mittelalter",
+   "1250 n. Chr."
+  ],
+  "west": [
+   "Der Wilde Westen",
+   "1870"
+  ],
+  "twenties": [
+   "Die Goldenen Zwanziger",
+   "1925"
+  ],
+  "neon": [
+   "Die Neon-Achtziger",
+   "1986"
+  ],
+  "future": [
+   "Die Zukunft",
+   "2099"
+  ]
+ },
+ "events": {
+  "gold": "Goldader",
+  "jewel": "Juwelenfund",
+  "chamber": "Geheimkammer",
+  "caravan": "Karawane",
+  "stars": "Sternbild",
+  "glyph": "Code geknackt",
+  "oasis": "Rastplatz",
+  "ra": "Sonnenwende",
+  "boulder": "Felssturz",
+  "scarab": "Goldenes Hufeisen",
+  "genie": "Flaschengeist",
+  "storm": "Zeitsturm",
+  "mcurse": "Fluch des Zeitgeists",
+  "pit": "Fallgrube",
+  "potion": "Heiltrank",
+  "dgift": "Geschenk des Teufels",
+  "ddeal": "Teufelshandel",
+  "dritual": "Teufelsritual",
+  "audit": "Steuerprüfung",
+  "reform": "Rentenreform"
+ },
+ "pats": {
+  "block": "Block",
+  "wave": "Welle",
+  "plus": "Kreuz",
+  "angle": "Winkel",
+  "obelisk": "Obelisk",
+  "temple": "Tempel",
+  "hook": "Haken",
+  "bolt": "Blitz",
+  "stairs": "Treppe",
+  "hourglass": "Sanduhr",
+  "pyramid": "Pyramide",
+  "gate": "Tor",
+  "ring": "Rahmen",
+  "d_plus": "Teufelskreuz",
+  "d_angle": "Teufelswinkel",
+  "d_block": "Teufelsblock",
+  "d_wave": "Teufelswelle",
+  "d_line": "Teufelslinie"
+ },
+ "sym": {
+  "cherry": [
+   "Kirsche",
+   "Kirsch"
+  ],
+  "lemon": [
+   "Zitrone",
+   "Zitronen"
+  ],
+  "grape": [
+   "Traube",
+   "Trauben"
+  ],
+  "bell": [
+   "Glocke",
+   "Glocken"
+  ],
+  "clover": [
+   "Klee",
+   "Klee"
+  ],
+  "diamond": [
+   "Diamant",
+   "Diamant"
+  ],
+  "seven": [
+   "Sieben",
+   "Sieben"
+  ],
+  "wild": [
+   "Joker",
+   "Joker"
+  ],
+  "coin": [
+   "Geldsack",
+   "Geld"
+  ],
+  "devil": [
+   "Teufel",
+   "Teufels"
+  ],
+  "tax": [
+   "Steuer-Opa",
+   "Steuer"
+  ]
+ },
+ "rar": [
+  "Gewöhnlich",
+  "Ungewöhnlich",
+  "Selten",
+  "Episch",
+  "Legendär",
+  "Mythisch"
+ ],
+ "tier": [
+  "Grau",
+  "Grün",
+  "Blau",
+  "Episch",
+  "Legendär",
+  "Mythisch"
+ ],
+ "story": {
+  "intro": [
+   [
+    "🥊",
+    "{name} boxt und steht kurz vor dem großen Titelkampf."
+   ],
+   [
+    "💼",
+    "Ein Gauner will, dass {name} absichtlich verliert. {name} sagt Nein."
+   ],
+   [
+    "💡",
+    "Mitten im Kampf geht das Licht aus. {name} rutscht aus und verliert alles."
+   ],
+   [
+    "🎰",
+    "Jahre später steht in einer Spielhalle ein alter Automat: LUCKOUT."
+   ],
+   [
+    "⚡",
+    "Drei Siebenen, und der Automat schleudert {name} zurück in die Urzeit."
+   ],
+   [
+    "🦖",
+    "Der Weg nach Hause führt durch zehn Epochen. Jeder Gewinn ist ein Treffer!"
+   ]
+  ],
+  "ep": [
+   {
+    "t": "Vulkane, Farne und ein Brüllen im Nebel.",
+    "mem": "Der T-Rex fällt um. Ein Portal öffnet sich: weiter in die Steinzeit!"
+   },
+   {
+    "t": "Schnee, Feuer und Trommeln in der Nacht.",
+    "mem": "Die Steinzeit ist geschafft. Nächster Halt: Ägypten."
+   },
+   {
+    "t": "Gold im Sand, und Pharao Neferkat erhebt sich.",
+    "mem": "Der Pharao ist besiegt. Das Portal führt nach Rom."
+   },
+   {
+    "t": "Brot und Spiele, fünfzigtausend Zuschauer.",
+    "mem": "Das Kolosseum jubelt. Weiter geht es zu den Wikingern."
+   },
+   {
+    "t": "Sturm, Salz und Drachenboote im Fjord.",
+    "mem": "Die Wikinger feiern {name}. Das Portal führt ins Mittelalter."
+   },
+   {
+    "t": "Auf dem Turm schläft ein Drache auf Münzen.",
+    "mem": "Der Drache ist besiegt. Weiter in den Wilden Westen!"
+   },
+   {
+    "t": "High Noon, Staub und eine knarrende Saloontür.",
+    "mem": "Der Staub legt sich. Nächster Halt: die Zwanziger."
+   },
+   {
+    "t": "Jazz, Champagner und Glücksspiel bis zum Morgen.",
+    "mem": "Die Musik verstummt. Weiter in die Neon-80er!"
+   },
+   {
+    "t": "Synthesizer, Neonlicht und eine Spielhalle.",
+    "mem": "Der Automat qualmt. Nur noch ein Sprung bis in die Zukunft."
+   },
+   {
+    "t": "Glastürme und Roboter. Der Supercomputer OMEGA wartet.",
+    "mem": "OMEGA ist besiegt. Der Weg nach Hause ist frei!"
+   }
+  ],
+  "end": [
+   [
+    "🎰",
+    "Ein letzter Spin: Sieben. Sieben. Sieben."
+   ],
+   [
+    "🏟️",
+    "{name} ist zurück, am Abend des Titelkampfs."
+   ],
+   [
+    "💡",
+    "Diesmal sieht {name} die Falle kommen und weicht aus."
+   ],
+   [
+    "🥊",
+    "KNOCKOUT! {name} ist Champion."
+   ]
+  ],
+  "lose": [
+   "Gezählt wird bis zehn. Diesmal bist du liegen geblieben.",
+   "Der Gauner lacht. Aber aufgeben gilt nicht.",
+   "Steh auf und versuch es nochmal."
+  ]
+ }
+}

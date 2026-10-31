@@ -1,0 +1,39 @@
+# Stellt Website (site/index.html) und Spiel (dist/luckout.html unter /play) auf GitHub Pages online.
+# dist/ wird lokal mit `npm run build` erzeugt und eingecheckt, hier wird nur kopiert.
+name: Spiel veröffentlichen
+
+on:
+  push:
+    branches: [main]
+    paths: ['dist/**', 'web/**', 'site/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Seite zusammenstellen
+        run: |
+          mkdir -p _site/play
+          cp -r site/. _site/
+          cp dist/luckout.html _site/play/index.html
+          cp -r web/. _site/play/
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v5

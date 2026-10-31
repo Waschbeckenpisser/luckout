@@ -1,0 +1,82 @@
+
+<div class="amb" aria-hidden="true"><i></i><i></i><i></i></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<main id="menuScreen" class="mm wrap">
+  <div class="mm-in">
+    <div class="machine glass mm-machine" id="mmMachine" role="button" tabindex="0" aria-label="Automat antippen, um zu starten" data-l-aria="Automat antippen, um zu starten">
+      <div class="reels" id="mmReels">
+        <div class="reel"><div class="strip"></div></div>
+        <div class="reel"><div class="strip"></div></div>
+        <div class="reel"><div class="strip"></div></div>
+        <svg class="lines" id="mmLines" aria-hidden="true"></svg>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow" data-l>Ein Boxkampf durch die Zeit</p>
+      <h1 class="display logo" aria-label="Luckout"><img src="brand/wortmarke.png" alt="" onerror="this.remove();document.documentElement.style.setProperty('--logo-txt','inline')"><span aria-hidden="true">Luckout</span></h1>
+    </div>
+    <div class="mm-opts">
+      <button class="mm-name" id="mmName" aria-label="Namen ändern" data-l-aria="Namen ändern">🥊 <span id="mmNameT"></span> <small>✎</small></button>
+      <div class="seg mm-mode" id="mmMode" role="group" aria-label="Spielmodus" data-l-aria="Spielmodus"><button data-m="story" data-l>Story</button><button data-m="endless" data-l>Endlos</button></div>
+      <div class="mm-level" id="mmLevel"><button data-d="-1" aria-label="Vorheriges Level" data-l-aria="Vorheriges Level">‹</button><div><small id="mmLvN"></small><b id="mmLvT"></b></div><button data-d="1" aria-label="Nächstes Level" data-l-aria="Nächstes Level">›</button></div>
+    </div>
+    <p class="mm-hint" id="mmHint" data-l>Tippe auf den Automaten, um zu starten.</p>
+    <p class="mm-note" id="mmNote"></p>
+    <p class="mm-links"><button id="mmDiary">📖 <span data-l>Tagebuch</span></button><button id="mmScores">🏆 <span data-l>Bestenliste</span></button></p>
+    <p class="mm-note"><a href="https://waschbeckenpisser.github.io/luckout/" target="_blank" rel="noopener" data-l>Offizielle Seite</a> · © 2026 Luckout</p>
+    <div class="seg mm-theme" id="mmTheme" role="group" aria-label="Darstellung" data-l-aria="Darstellung"><button data-t="auto" data-l>Auto</button><button data-t="light" data-l>Hell</button><button data-t="dark" data-l>Dunkel</button></div>
+    <div class="seg mm-lang" id="mmLang" role="group" aria-label="Sprache" data-l-aria="Sprache"></div>
+  </div>
+</main>
+
+<main id="game" class="wrap" hidden>
+  <div class="g">
+    <header class="topbar">
+      <button class="icon-btn glass" id="btnMenu" aria-label="Menü öffnen" data-l-aria="Menü öffnen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 8h14M5 16h14"/></svg></button>
+      <div class="chamber"><b id="hRound">Kampf 1 <small>von 12</small></b><div class="track" id="track"></div></div>
+      <div style="display:flex;gap:8px"><button class="icon-btn glass" id="btnSound" aria-label="Ton an/aus" data-l-aria="Ton an/aus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4h4l5 4V6L8 10z" fill="currentColor"/><path class="snd-on" d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/><path class="snd-off" d="M16 9l6 6M22 9l-6 6"/></svg></button>
+      <button class="icon-btn glass" id="btnInfo" aria-label="Infos zu Gewinnen, Mustern und Gegnern" data-l-aria="Infos zu Gewinnen, Mustern und Gegnern"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.4" r="1.5" fill="currentColor"/><path d="M12 11v7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button></div>
+    </header>
+
+    <section class="foe glass" id="foe" aria-live="polite">
+      <div class="foe-av" id="foeAv" data-tip="foe" tabindex="0"></div>
+      <div class="foe-t" data-tip="foe"><h2 id="foeName"></h2><p id="foeRule"></p></div>
+      <div class="foe-hp"><b id="foeHp">0</b><small id="foeMax"></small></div>
+      <div class="hpbar" id="hpbar"><i class="hp-ghost" id="hpGhost"></i><i class="hp-fill" id="hpFill"></i></div>
+      <p class="foe-phase" id="foePhase" hidden></p>
+    </section>
+
+    <section class="stats">
+      <div class="bank" id="bankBox"><small data-l>Konto</small><b id="sBank" class="num">$0</b><button class="debt" id="sDebt" hidden></button></div>
+      <div class="mini-stat"><small data-l>Leben</small><b class="hearts" id="sHearts" aria-label="Leben" data-l-aria="Leben"></b></div>
+      <div class="mini-stat"><small data-l>Spins</small><b id="sSpins" class="num">0</b><div class="sdots" id="sDots"></div></div>
+    </section>
+
+    <section class="machine glass" id="machine" aria-label="Spielautomat" data-l-aria="Spielautomat">
+      <div class="buffs" id="buffs"></div>
+      <div class="reels" id="reels">
+        <div class="reel"><div class="strip"></div></div>
+        <div class="reel"><div class="strip"></div></div>
+        <div class="reel"><div class="strip"></div></div>
+        <svg class="lines" id="lines" aria-hidden="true"></svg>
+      </div>
+      <div class="result" id="result" aria-live="polite"></div>
+    </section>
+
+    <section class="controls">
+      <button class="btn-spin" id="btnSpin" data-l>Drehen</button>
+      <div class="sub-row" id="subRow"></div>
+    </section>
+
+    <section class="vault glass" id="vault" aria-label="Deine Relikte" data-l-aria="Deine Relikte">
+      <div class="vault-h"><span data-l>Relikte</span><b id="slotCount">0 / 8</b></div>
+      <div class="slots" id="slots"></div>
+      <div class="curses" id="curses" hidden></div>
+    </section>
+  </div>
+</main>
+
+<nav class="dock glass" id="dock" aria-label="Hotbar" data-l-aria="Hotbar" hidden></nav>
+<div class="tip glass" id="tip" hidden></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>

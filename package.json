@@ -1,0 +1,18 @@
+{
+  "name": "luckout",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Luckout – Slot-Roguelike in der Pyramide, gebaut zu einer einzigen HTML-Datei",
+  "scripts": {
+    "build": "node tools/build.js",
+    "bot": "node tools/sim.js bot 1500",
+    "sim": "node tools/sim.js",
+    "fuzz": "node tools/fuzz.js",
+    "test": "node tools/fuzz.js && node tools/sim.js bot 400 && node tools/build.js",
+    "test:e2e": "node tools/build.js && node tests/e2e.js",
+    "i18n": "node tools/i18n-keys.js"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

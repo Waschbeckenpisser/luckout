@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Luckout – A boxing match through time</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Luckout is a free slot roguelike in your browser: spin the machine, and every win lands a punch. 10 eras, 154 relics, no tracking.">
+<link rel="canonical" href="https://waschbeckenpisser.github.io/luckout/">
+<link rel="alternate" hreflang="en" href="https://waschbeckenpisser.github.io/luckout/">
+<link rel="alternate" hreflang="de" href="https://waschbeckenpisser.github.io/luckout/de/">
+<link rel="alternate" hreflang="es" href="https://waschbeckenpisser.github.io/luckout/es/">
+<link rel="alternate" hreflang="fr" href="https://waschbeckenpisser.github.io/luckout/fr/">
+<link rel="alternate" hreflang="x-default" href="https://waschbeckenpisser.github.io/luckout/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://waschbeckenpisser.github.io/luckout/">
+<meta property="og:title" content="Luckout – A boxing match through time">
+<meta property="og:description" content="Slot roguelike in your browser: one boxing match, one slot machine, 10 eras. Free, no sign-up.">
+<meta property="og:image" content="https://waschbeckenpisser.github.io/luckout/play/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="600">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0b14">
+<link rel="icon" href="play/icon-192.png">
+<link rel="apple-touch-icon" href="play/icon-180.png">
+<link rel="manifest" href="play/manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+:root{
+  --bg:#0b0b14; --bg2:#000; --text:#f5f5f7; --muted:#a1a1b3;
+  --glass:rgba(255,255,255,.06); --glass-b:rgba(255,255,255,.12);
+  --a1:#0a84ff; --a2:#7d7aff; --red:#ff375f;
+  --grad:linear-gradient(135deg,var(--a1),var(--a2));
+  --glow1:rgba(10,132,255,.28); --glow2:rgba(125,122,255,.24); --glow3:rgba(255,55,95,.10);
+  --link:#64b0ff; --btn-text:#fff;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --bg:#f5f5f7; --bg2:#fff; --text:#1d1d1f; --muted:#5c5c6b;
+    --glass:rgba(255,255,255,.6); --glass-b:rgba(0,0,0,.08);
+    --glow1:rgba(10,132,255,.18); --glow2:rgba(125,122,255,.16); --glow3:rgba(255,55,95,.07);
+    --link:#0060d0; color-scheme:light;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:400 1.0625rem/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  overflow-x:hidden; position:relative; min-height:100vh;
+}
+body::before{ /* Umgebungslicht */
+  content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background:
+    radial-gradient(40rem 32rem at 12% -5%,var(--glow1),transparent 70%),
+    radial-gradient(36rem 30rem at 95% 25%,var(--glow2),transparent 70%),
+    radial-gradient(30rem 26rem at 30% 105%,var(--glow3),transparent 70%);
+}
+a{color:var(--link)}
+:focus-visible{outline:3px solid var(--a1);outline-offset:3px;border-radius:8px}
+.langs{display:flex;gap:1rem;justify-content:center;font-size:.9rem;font-weight:600;margin-bottom:1.25rem}
+.langs a{color:var(--muted);text-decoration:none}
+.langs a:hover{color:var(--text)}
+.wrap{max-width:68rem;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left))}
+section{padding:4rem 0}
+h1,h2,h3{line-height:1.15;margin:0}
+h2{font:400 clamp(1.5rem,5vw,2.25rem)/1.15 Bungee,Inter,sans-serif;letter-spacing:.01em;margin-bottom:.6rem}
+h3{font-size:1.15rem;font-weight:700;margin-bottom:.4rem}
+.lead{color:var(--muted);max-width:40rem;margin:0 0 2rem}
+.glass{
+  background:var(--glass); border:1px solid var(--glass-b); border-radius:22px;
+  -webkit-backdrop-filter:blur(24px) saturate(160%); backdrop-filter:blur(24px) saturate(160%);
+}
+
+/* Hero */
+header{padding:clamp(2.5rem,9vw,6rem) 0 2rem;text-align:center}
+.logo{display:block;width:min(100%,34rem);height:auto;margin:0 auto 1.5rem}
+.slogan{font-size:clamp(1.2rem,4vw,1.75rem);font-weight:600;margin:0 0 2rem}
+.btn{
+  display:inline-block; padding:1rem 2.4rem; border-radius:999px; text-decoration:none;
+  background:var(--grad); color:var(--btn-text); font-weight:700; font-size:1.2rem;
+  box-shadow:0 8px 28px rgba(10,132,255,.35); transition:transform .25s ease,box-shadow .25s ease;
+}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(10,132,255,.45)}
+.btn:active{transform:none}
+.small{color:var(--muted);font-size:.95rem;margin:1rem 0 0}
+
+/* Raster */
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+.card{padding:1.5rem}
+.card p{margin:0;color:var(--muted)}
+.card .ico{font-size:2rem;display:block;margin-bottom:.6rem}
+.eras{list-style:none;margin:0;padding:0}
+.era{padding:1.1rem 1.25rem;display:grid;grid-template-columns:auto 1fr;gap:0 .9rem;align-items:center}
+.era .e{font-size:2rem;grid-row:span 2}
+.era b{font-weight:700}
+.era span{color:var(--muted);font-size:.95rem}
+.era .y{color:var(--a2);font-weight:600}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .era .y{color:#4b47c9}}
+
+.story{padding:clamp(1.5rem,5vw,2.5rem);max-width:46rem}
+.story p{margin:0 0 1rem}
+.story p:last-child{margin:0}
+.steps{margin:0;padding-left:1.2rem}
+.steps li{margin-bottom:.6rem}
+.steps li:last-child{margin:0}
+.two{display:grid;gap:14px;grid-template-columns:1fr}
+
+details{padding:0 1.25rem;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600;padding:1.1rem 0;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--a1);font-weight:700;font-size:1.3rem;line-height:1.2}
+details[open] summary::after{content:"–"}
+details p{margin:0 0 1.1rem;color:var(--muted)}
+
+footer{padding:2.5rem 0 3rem;border-top:1px solid var(--glass-b);color:var(--muted);font-size:.95rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between}
+footer nav{display:flex;gap:1.25rem}
+
+@media (min-width:640px){
+  .grid.c2{grid-template-columns:repeat(2,1fr)}
+  .grid.c5{grid-template-columns:repeat(2,1fr)}
+  .two{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:1024px){
+  section{padding:5.5rem 0}
+  .grid.c4{grid-template-columns:repeat(4,1fr)}
+  .grid.c5{grid-template-columns:repeat(5,1fr)}
+  .era{grid-template-columns:1fr;text-align:center;justify-items:center;padding:1.4rem 1rem;gap:.15rem}
+  .era .e{grid-row:auto;font-size:2.4rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .btn{transition:none}
+  .btn:hover{transform:none}
+}
+  /* Logo-Bild hat dunklen Grund: als ruhige Kachel zeigen, Ränder weich auslaufen lassen */
+  .logo{border-radius:36px;box-shadow:0 20px 50px rgba(10,20,80,.25)}
+  @media (prefers-color-scheme: dark){.logo{box-shadow:none;-webkit-mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,#000 72%,transparent);mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,#000 72%,transparent)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav class="langs" aria-label="Language"><b aria-current="page">EN</b><a href="de/" hreflang="de" lang="de">DE</a><a href="es/" hreflang="es" lang="es">ES</a><a href="fr/" hreflang="fr" lang="fr">FR</a></nav>
+    <h1><img class="logo" src="play/brand/logo-titel.webp" alt="Luckout"></h1>
+    <p class="slogan">A boxing match through time.</p>
+    <a class="btn" href="play/?lang=en">Play now</a>
+    <p class="small">Free · in your browser · on your phone too</p>
+  </div>
+</header>
+
+<main>
+  <section id="worum">
+    <div class="wrap">
+      <h2>What's it about</h2>
+      <p class="lead">Luckout is a slot roguelike: you spin a 3×3 slot machine, and every win hits your opponent.</p>
+      <div class="grid c2 c4">
+        <article class="card glass"><span class="ico" aria-hidden="true">🎰</span><h3>Reels instead of fists</h3><p>Every win deals damage equal to its payout. You get only a few spins per fight, so every spin counts.</p></article>
+        <article class="card glass"><span class="ico" aria-hidden="true">⏳</span><h3>10 eras</h3><p>From the Prehistoric Age to the Future. Each era has 12 fights, bosses in fights 4 and 8 and a champion in fight 12. After that, the Endless mode keeps going.</p></article>
+        <article class="card glass"><span class="ico" aria-hidden="true">🃏</span><h3>Relics &amp; synergies</h3><p>154 relics, 55 consumables and 15 curses. Combine them into a build that fits your run.</p></article>
+        <article class="card glass"><span class="ico" aria-hidden="true">😈</span><h3>Devil &amp; Tax Grandpa</h3><p>The Devil steals your bet. Tax Grandpa 👴 takes 30% of your winnings. You can outsmart them both.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="story">
+    <div class="wrap">
+      <h2>The story</h2>
+      <div class="story glass">
+        <p>Your boxing career is in ruins. At the back of a dusty arcade stands a machine: LUCKOUT. You choose your own ring name.</p>
+        <p>Three sevens, and the machine opens a time portal. On the other side, a champion waits in every era, and none of them wants to let you leave.</p>
+        <p>Your goal: get back home and still win the title fight.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="epochen">
+    <div class="wrap">
+      <h2>The 10 eras</h2>
+      <p class="lead">Every era has its own champion.</p>
+      <ol class="eras grid c5">
+        <li class="era glass"><span class="e" aria-hidden="true">🦖</span><b>The Prehistoric Age</b><span>T. Rex · <span class="y">65 million BC</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🦣</span><b>The Stone Age</b><span>Mammoth Chieftain · <span class="y">30,000 BC</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">👑</span><b>Ancient Egypt</b><span>Pharaoh Neferkat · <span class="y">1300 BC</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🏛️</span><b>Ancient Rome</b><span>Emperor Maximus · <span class="y">80 AD</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🪓</span><b>The Vikings</b><span>Jarl Ironbeard · <span class="y">900 AD</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🐉</span><b>The Middle Ages</b><span>The Dragon · <span class="y">1250 AD</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🤠</span><b>The Wild West</b><span>Seven-Shot Sam · <span class="y">1870</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🎩</span><b>The Roaring Twenties</b><span>The Godfather · <span class="y">1925</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🎰</span><b>The Neon Eighties</b><span>Mega Machine · <span class="y">1986</span></span></li>
+        <li class="era glass"><span class="e" aria-hidden="true">🤖</span><b>The Future</b><span>OMEGA · <span class="y">2099</span></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="handy">
+    <div class="wrap">
+      <h2>Play on your phone</h2>
+      <p class="lead">Luckout runs in your browser. Add it to your home screen and it starts like an app.</p>
+      <div class="two">
+        <div class="card glass">
+          <h3>iPhone (Safari)</h3>
+          <ol class="steps">
+            <li>Open Luckout in Safari.</li>
+            <li>Tap Share.</li>
+            <li>Choose “Add to Home Screen”.</li>
+          </ol>
+        </div>
+        <div class="card glass">
+          <h3>Android (Chrome)</h3>
+          <ol class="steps">
+            <li>Open Luckout in Chrome.</li>
+            <li>Open the ⋮ menu.</li>
+            <li>Choose “Install app”.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Frequently asked questions</h2>
+      <div style="max-width:46rem">
+        <details class="glass"><summary>Does it cost anything?</summary><p>No. Luckout is free and has no ads.</p></details>
+        <details class="glass"><summary>Do I have to sign up?</summary><p>No. Just open the page and start playing.</p></details>
+        <details class="glass"><summary>Is my progress saved?</summary><p>High scores, your name and unlocked levels stay local in your browser. A run in progress is not saved.</p></details>
+        <details class="glass"><summary>Is there an app?</summary><p>An app is planned. Until then, you can add Luckout to your home screen as described above.</p></details>
+        <details class="glass"><summary>What data is collected?</summary><p>None. There is no tracking. When the page loads, only the fonts are fetched from Google Fonts.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Luckout · All rights reserved</span>
+    <nav aria-label="Footer">
+      <a href="play/?lang=en">Play</a>
+      <a href="https://github.com/Waschbeckenpisser/luckout">GitHub</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
